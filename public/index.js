@@ -36348,7 +36348,7 @@ var Plans = function () {
   \***********************************/
 (module) {
 
-module.exports = "/assets/images/gray-curve.svg";
+module.exports = "/kitchen-sink/assets/images/gray-curve.svg";
 
 /***/ },
 
@@ -36358,7 +36358,7 @@ module.exports = "/assets/images/gray-curve.svg";
   \*******************************************/
 (module) {
 
-module.exports = "/assets/images/man-on-cpu-potatoa.png";
+module.exports = "/kitchen-sink/assets/images/man-on-cpu-potatoa.png";
 
 /***/ },
 
@@ -36368,7 +36368,7 @@ module.exports = "/assets/images/man-on-cpu-potatoa.png";
   \*****************************************/
 (module) {
 
-module.exports = "/assets/images/plug-circle-bolt.svg";
+module.exports = "/kitchen-sink/assets/images/plug-circle-bolt.svg";
 
 /***/ },
 
@@ -36378,7 +36378,7 @@ module.exports = "/assets/images/plug-circle-bolt.svg";
   \*************************************/
 (module) {
 
-module.exports = "/assets/images/woman-at-cpu.png";
+module.exports = "/kitchen-sink/assets/images/woman-at-cpu.png";
 
 /***/ }
 
