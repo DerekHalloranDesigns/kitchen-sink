@@ -36259,7 +36259,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Header = function (_a) {
-    var _b = _a.styleGuideUrl, styleGuideUrl = _b === void 0 ? "/demo/nrg-assessment/style-guide/" : _b;
+    var _b = _a.styleGuideUrl, styleGuideUrl = _b === void 0 ? "./style-guide/index.html" : _b;
     return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("header", { className: "site-header", role: "banner", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "site-header__bar", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: styleGuideUrl, className: "site-header__link underline color_white has-pd-top-5 has-pd-bottom-5", style: { display: "inline-block" }, children: "Style Guide Available!" }) }) }));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
