@@ -46,7 +46,7 @@ module.exports = (env) => {
       path: path.resolve(__dirname, outputPath),
       filename: "[name].js",
       clean: clean,
-      assetModuleFilename: assetModuleFilename + "./[name][ext]",
+      assetModuleFilename: assetModuleFilename + "/[name][ext]",
       publicPath: publicPath + "/",
     },
     devtool: "source-map",
