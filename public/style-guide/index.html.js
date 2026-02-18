@@ -2,317 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/About.scss"
-/*!***************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/About.scss ***!
-  \***************************************************************************************************************************************************/
-(module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, `.about {
-  background-color: var(--color-white);
-  padding: var(--space-16) 0;
-}
-
-.about__intro {
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 0 var(--container-padding);
-  text-align: center;
-  margin-bottom: var(--space-12);
-}
-
-.about__intro-body {
-  font-size: 1.6rem;
-  line-height: 2.8rem;
-  color: var(--color-text);
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.about__container {
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 0 var(--container-padding);
-  display: flex;
-  align-items: center;
-  gap: var(--space-8);
-}
-
-.about__media {
-  flex: 0 0 38%;
-}
-
-.about__image {
-  width: 100%;
-  height: auto;
-}
-
-.about__content {
-  flex: 0 0 62%;
-  padding: 0 var(--space-8);
-}
-
-.about__body {
-  font-size: 1.6rem;
-  line-height: 2.8rem;
-  color: var(--color-text);
-}`, "",{"version":3,"sources":["webpack://./src/styles/components/About.scss"],"names":[],"mappings":"AAGA;EACE,oCAAA;EACA,0BAAA;AAFF;;AAMA;EACE,qCAAA;EACA,cAAA;EACA,mCAAA;EACA,kBAAA;EACA,8BAAA;AAHF;;AAMA;EACE,iBAAA;EACA,mBAAA;EACA,wBAAA;EACA,gBAAA;EACA,cAAA;AAHF;;AAOA;EACE,qCAAA;EACA,cAAA;EACA,mCAAA;EACA,aAAA;EACA,mBAAA;EACA,mBAAA;AAJF;;AAOA;EACE,aAAA;AAJF;;AAOA;EACE,WAAA;EACA,YAAA;AAJF;;AAOA;EACE,aAAA;EACA,yBAAA;AAJF;;AAOA;EACE,iBAAA;EACA,mBAAA;EACA,wBAAA;AAJF","sourcesContent":["// About.scss\r\n// Two-part section: centered intro, then two-column image + text.\r\n\r\n.about {\r\n  background-color: var(--color-white);\r\n  padding: var(--space-16) 0;\r\n}\r\n\r\n// ─── Intro: centered heading + body ──────────────────────────\r\n.about__intro {\r\n  max-width: var(--container-max-width);\r\n  margin: 0 auto;\r\n  padding: 0 var(--container-padding);\r\n  text-align: center;\r\n  margin-bottom: var(--space-12);\r\n}\r\n\r\n.about__intro-body {\r\n  font-size: 1.6rem;\r\n  line-height: 2.8rem;\r\n  color: var(--color-text);\r\n  max-width: 900px;\r\n  margin: 0 auto;\r\n}\r\n\r\n// ─── Two-column: image left, content right ───────────────────\r\n.about__container {\r\n  max-width: var(--container-max-width);\r\n  margin: 0 auto;\r\n  padding: 0 var(--container-padding);\r\n  display: flex;\r\n  align-items: center;\r\n  gap: var(--space-8);\r\n}\r\n\r\n.about__media {\r\n  flex: 0 0 38%;\r\n}\r\n\r\n.about__image {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.about__content {\r\n  flex: 0 0 62%;\r\n  padding: 0 var(--space-8);\r\n}\r\n\r\n.about__body {\r\n  font-size: 1.6rem;\r\n  line-height: 2.8rem;\r\n  color: var(--color-text);\r\n}\r\n"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ },
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/Header.scss"
-/*!****************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/Header.scss ***!
-  \****************************************************************************************************************************************************/
-(module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, `.site-header {
-  width: 100%;
-}
-
-.site-header__bar {
-  background-color: var(--color-deep-sea);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px var(--space-6);
-  text-align: center;
-}
-
-.site-header__link {
-  text-underline-offset: 3px;
-  transition: opacity var(--transition-base);
-}
-.site-header__link:hover {
-  opacity: 0.8;
-}
-.site-header__link:focus-visible {
-  outline: 2px solid var(--color-white);
-  outline-offset: 4px;
-  border-radius: var(--border-radius-sm);
-}`, "",{"version":3,"sources":["webpack://./src/styles/components/Header.scss"],"names":[],"mappings":"AAIA;EACE,WAAA;AAHF;;AAMA;EACE,uCAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,2BAAA;EACA,kBAAA;AAHF;;AAMA;EACE,0BAAA;EACA,0CAAA;AAHF;AAKE;EACE,YAAA;AAHJ;AAME;EACE,qCAAA;EACA,mBAAA;EACA,sCAAA;AAJJ","sourcesContent":["// Header.scss\r\n// Styles for the site-wide announcement/nav bar.\r\n// Uses CSS custom properties from _tokens.scss — no hard-coded values.\r\n\r\n.site-header {\r\n  width: 100%;\r\n}\r\n\r\n.site-header__bar {\r\n  background-color: var(--color-deep-sea);\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  padding: 5px var(--space-6); // ← 5px matches the live site exactly\r\n  text-align: center;\r\n}\r\n\r\n.site-header__link {\r\n  text-underline-offset: 3px;\r\n  transition: opacity var(--transition-base);\r\n\r\n  &:hover {\r\n    opacity: 0.8;\r\n  }\r\n\r\n  &:focus-visible {\r\n    outline: 2px solid var(--color-white);\r\n    outline-offset: 4px;\r\n    border-radius: var(--border-radius-sm);\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ },
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/Hero.scss"
-/*!**************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/Hero.scss ***!
-  \**************************************************************************************************************************************************/
-(module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, `.hero {
-  background-color: var(--color-off-white);
-  padding: var(--space-8) 0 0;
-  overflow: hidden;
-  position: relative;
-}
-
-.hero__container {
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  gap: var(--space-8);
-}
-
-.hero__content {
-  flex: 0 0 50%;
-  padding: 0 var(--space-12) 0 var(--space-16);
-}
-
-.hero__body {
-  font-size: var(--font-size-base);
-  line-height: var(--line-height-base);
-  color: var(--color-text);
-  margin-bottom: var(--space-8);
-}
-
-.hero__cta {
-  display: inline-block;
-  padding: var(--space-4) var(--space-10);
-  border: 2px solid var(--color-deep-sea);
-  color: var(--color-deep-sea);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-semibold);
-  letter-spacing: 0.08em;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: background-color var(--transition-base), color var(--transition-base);
-}
-.hero__cta:hover {
-  background-color: var(--color-deep-sea);
-  color: var(--color-white);
-}
-.hero__cta:focus-visible {
-  outline: 2px solid var(--color-deep-sea);
-  outline-offset: 4px;
-}
-
-.hero__media {
-  flex: 0 0 50%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  overflow: hidden;
-}
-
-.hero__image-wrapper {
-  width: 100%;
-  padding: var(--space-6);
-}
-
-.hero__image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.hero__curve {
-  display: block;
-  width: 100%;
-  height: auto;
-}`, "",{"version":3,"sources":["webpack://./src/styles/components/Hero.scss"],"names":[],"mappings":"AAIA;EACE,wCAAA;EACA,2BAAA;EACA,gBAAA;EACA,kBAAA;AAHF;;AAMA;EACE,qCAAA;EACA,cAAA;EACA,UAAA;EACA,aAAA;EACA,mBAAA;EACA,mBAAA;AAHF;;AAQA;EACE,aAAA;EACA,4CAAA;AALF;;AAQA;EACE,gCAAA;EACA,oCAAA;EACA,wBAAA;EACA,6BAAA;AALF;;AAQA;EACE,qBAAA;EACA,uCAAA;EACA,uCAAA;EACA,4BAAA;EACA,gCAAA;EACA,wCAAA;EACA,sBAAA;EACA,qBAAA;EACA,yBAAA;EACA,iFACE;AANJ;AASE;EACE,uCAAA;EACA,yBAAA;AAPJ;AAUE;EACE,wCAAA;EACA,mBAAA;AARJ;;AAcA;EACE,aAAA;EACA,aAAA;EACA,yBAAA;EACA,mBAAA;EACA,gBAAA;AAXF;;AAcA;EACE,WAAA;EACA,uBAAA;AAXF;;AAgBA;EACE,WAAA;EACA,YAAA;EACA,cAAA;AAbF;;AAgBA;EACE,cAAA;EACA,WAAA;EACA,YAAA;AAbF","sourcesContent":["// Hero.scss\r\n// Two-column hero: content left, circular image right.\r\n// Blob shapes use ::before and ::after on the image wrapper.\r\n\r\n.hero {\r\n  background-color: var(--color-off-white);\r\n  padding: var(--space-8) 0 0;\r\n  overflow: hidden;\r\n  position: relative;\r\n}\r\n\r\n.hero__container {\r\n  max-width: var(--container-max-width);\r\n  margin: 0 auto;\r\n  padding: 0;\r\n  display: flex;\r\n  align-items: center;\r\n  gap: var(--space-8); // ← 24px gap between columns\r\n}\r\n\r\n// ─── Left column ───────────────────────────────────────────\r\n\r\n.hero__content {\r\n  flex: 0 0 50%;\r\n  padding: 0 var(--space-12) 0 var(--space-16); // ← internal padding for text breathing room\r\n}\r\n\r\n.hero__body {\r\n  font-size: var(--font-size-base); // ← back to 1rem, caption was too large\r\n  line-height: var(--line-height-base);\r\n  color: var(--color-text);\r\n  margin-bottom: var(--space-8);\r\n}\r\n\r\n.hero__cta {\r\n  display: inline-block;\r\n  padding: var(--space-4) var(--space-10);\r\n  border: 2px solid var(--color-deep-sea); // ← explicit token reference\r\n  color: var(--color-deep-sea);\r\n  font-size: var(--font-size-base);\r\n  font-weight: var(--font-weight-semibold);\r\n  letter-spacing: 0.08em;\r\n  text-decoration: none;\r\n  text-transform: uppercase;\r\n  transition:\r\n    background-color var(--transition-base),\r\n    color var(--transition-base);\r\n\r\n  &:hover {\r\n    background-color: var(--color-deep-sea);\r\n    color: var(--color-white);\r\n  }\r\n\r\n  &:focus-visible {\r\n    outline: 2px solid var(--color-deep-sea);\r\n    outline-offset: 4px;\r\n  }\r\n}\r\n\r\n// ─── Right column ──────────────────────────────────────────\r\n\r\n.hero__media {\r\n  flex: 0 0 50%;\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: center;\r\n  overflow: hidden;\r\n}\r\n\r\n.hero__image-wrapper {\r\n  width: 100%;\r\n  padding: var(\r\n    --space-6\r\n  ); // ← 24px on all sides, shrinks image within same space\r\n}\r\n\r\n.hero__image {\r\n  width: 100%;\r\n  height: auto;\r\n  display: block;\r\n}\r\n\r\n.hero__curve {\r\n  display: block;\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ },
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/Plans.scss"
-/*!***************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/Plans.scss ***!
-  \***************************************************************************************************************************************************/
-(module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, `.plans {
-  background-color: var(--color-white);
-  padding: var(--space-12) 0 var(--space-16);
-}
-
-.plans__container {
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 0 var(--container-padding);
-  display: flex;
-  gap: var(--space-16);
-}
-
-.plans__card {
-  flex: 0 0 calc(50% - var(--space-4));
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gray-light);
-  border-radius: var(--border-radius-md);
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  box-shadow: var(--shadow-card);
-}
-
-.plans__icon-wrapper {
-  width: 7rem;
-  height: 7rem;
-  background-color: var(--color-teal-light);
-  border-radius: var(--border-radius-full);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 4rem;
-}
-
-.plans__icon {
-  width: 3.5rem;
-  height: 3.5rem;
-}
-
-.plans__title {
-  margin-bottom: var(--space-5);
-}
-
-.plans__features {
-  padding-left: var(--space-6);
-  flex: 1;
-  margin-bottom: var(--space-5);
-}
-.plans__features li {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  color: var(--color-text);
-  margin-bottom: var(--space-2);
-}
-
-.plans__price {
-  margin-bottom: var(--space-5);
-}
-
-.plans__cta {
-  align-self: flex-start;
-  padding: 1.8rem var(--space-8);
-}`, "",{"version":3,"sources":["webpack://./src/styles/components/Plans.scss"],"names":[],"mappings":"AAGA;EACE,oCAAA;EACA,0CAAA;AAFF;;AAKA;EACE,qCAAA;EACA,cAAA;EACA,mCAAA;EACA,aAAA;EACA,oBAAA;AAFF;;AAMA;EACE,oCAAA;EACA,oCAAA;EACA,yCAAA;EACA,sCAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;AAHF;;AAOA;EACE,WAAA;EACA,YAAA;EACA,yCAAA;EACA,wCAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,mBAAA;AAJF;;AAOA;EACE,aAAA;EACA,cAAA;AAJF;;AAQA;EACE,6BAAA;AALF;;AASA;EACE,4BAAA;EACA,OAAA;EACA,6BAAA;AANF;AAQE;EACE,iBAAA;EACA,mBAAA;EACA,wBAAA;EACA,6BAAA;AANJ;;AAWA;EACE,6BAAA;AARF;;AAYA;EACE,sBAAA;EACA,8BAAA;AATF","sourcesContent":["// Plans.scss\r\n// Two-column pricing cards section.\r\n\r\n.plans {\r\n  background-color: var(--color-white);\r\n  padding: var(--space-12) 0 var(--space-16);\r\n}\r\n\r\n.plans__container {\r\n  max-width: var(--container-max-width);\r\n  margin: 0 auto;\r\n  padding: 0 var(--container-padding);\r\n  display: flex;\r\n  gap: var(--space-16);\r\n}\r\n\r\n// ─── Card ────────────────────────────────────────────────────\r\n.plans__card {\r\n  flex: 0 0 calc(50% - var(--space-4));\r\n  background-color: var(--color-white);\r\n  border: 1px solid var(--color-gray-light);\r\n  border-radius: var(--border-radius-md);\r\n  padding: 2rem;\r\n  display: flex;\r\n  flex-direction: column;\r\n  box-shadow: var(--shadow-card);\r\n}\r\n\r\n// ─── Icon ────────────────────────────────────────────────────\r\n.plans__icon-wrapper {\r\n  width: 7rem;\r\n  height: 7rem;\r\n  background-color: var(--color-teal-light);\r\n  border-radius: var(--border-radius-full);\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  margin-bottom: 4rem; // 40px\r\n}\r\n\r\n.plans__icon {\r\n  width: 3.5rem;\r\n  height: 3.5rem;\r\n}\r\n\r\n// ─── Title ───────────────────────────────────────────────────\r\n.plans__title {\r\n  margin-bottom: var(--space-5);\r\n}\r\n\r\n// ─── Features list ───────────────────────────────────────────\r\n.plans__features {\r\n  padding-left: var(--space-6);\r\n  flex: 1;\r\n  margin-bottom: var(--space-5);\r\n\r\n  li {\r\n    font-size: 1.6rem;\r\n    line-height: 2.4rem;\r\n    color: var(--color-text);\r\n    margin-bottom: var(--space-2);\r\n  }\r\n}\r\n\r\n// ─── Price ───────────────────────────────────────────────────\r\n.plans__price {\r\n  margin-bottom: var(--space-5);\r\n}\r\n\r\n// ─── CTA ─────────────────────────────────────────────────────\r\n.plans__cta {\r\n  align-self: flex-start;\r\n  padding: 1.8rem var(--space-8);\r\n}\r\n"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ },
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/main.scss"
 /*!***************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/main.scss ***!
@@ -772,6 +461,263 @@ h6 {
   line-height: 2.8rem;
   color: var(--color-text);
 }`, "",{"version":3,"sources":["webpack://./src/styles/_tokens.scss","webpack://./src/styles/main.scss","webpack://./src/styles/_base.scss","webpack://./src/styles/_utilities.scss","webpack://./src/styles/components/Button.scss","webpack://./src/styles/components/About.scss"],"names":[],"mappings":"AAKA;EAEE,yBAAA;EACA,uBAAA;EACA,2BAAA;EACA,sBAAA;EACA,sBAAA;EACA,0BAAA;EACA,qBAAA;EACA,2BAAA;EAGA,wCAAA;EAGA,2BAAA;EACA,wBAAA;EACA,sBAAA;EACA,sBAAA;EACA,8BAAA;EACA,2BAAA;EACA,sBAAA;ACTF;ADWE;;;;;;;;;;;;EAYE,mBAAA;ACTJ;AD1BA;EAuCE,6BAAA;EACA,wBAAA;EACA,wBAAA;EACA,wBAAA;EACA,gCAAA;EACA,6BAAA;EACA,uBAAA;EAGA,uBAAA;EACA,2BAAA;EACA,0BAAA;EACA,wBAAA;EAGA,iBAAA;EACA,iBAAA;EACA,iBAAA;EACA,iBAAA;EACA,eAAA;EACA,iBAAA;EACA,iBAAA;EACA,gBAAA;EACA,kBAAA;EACA,kBAAA;EACA,gBAAA;EAGA,wBAAA;EACA,uBAAA;EAGA,6BAAA;EACA,mCAAA;EAGA,uBAAA;EACA,uBAAA;EACA,wBAAA;EACA,4BAAA;EACA,mBAAA;EACA,uCAAA;EAEA,2BAAA;EAGA,6CAAA;EACA,8CAAA;EAGA,oCAAA;ACzBF;;ACrEA;;;EAGE,sBAAA;EACA,SAAA;EACA,UAAA;ADwEF;;ACrEA;EACE,gBAAA;EACA,uBAAA;EACA,8BAAA;ADwEF;;ACrEA;EACE,oCAAA;EACA,iBAAA;EACA,uCAAA;EACA,oCAAA;EACA,wBAAA;EACA,oCAAA;EACA,mCAAA;EACA,kCAAA;ADwEF;;ACrEA;;;;;;EAME,oCAAA;ADwEF;;ACrEA;EACE,6BAAA;ADwEF;;ACrEA;EACE,4BAAA;EACA,0BAAA;EACA,wCAAA;ADwEF;ACtEE;EACE,YAAA;ADwEJ;;ACpEA;;EAEE,4BAAA;ADuEF;;ACpEA;EACE,6BAAA;ADuEF;;ACpEA;EACE,eAAA;EACA,cAAA;ADuEF;;ACpEA;EACE,wCAAA;EACA,mBAAA;ADuEF;;AErIA;;;;;;EAME,mBAAA;EACA,uCAAA;AFwIF;;AEpIA;;;;;;EAME,mBAAA;AFuIF;;AEpIA;EACE,iBAAA;EACA,mBAAA;AFuIF;AErIE;EAJF;IAKI,mBAAA;EFwIF;AACF;;AErIA;EACE,iBAAA;EACA,mBAAA;AFwIF;AEtIE;EAJF;IAKI,iBAAA;IACA,iBAAA;EFyIF;AACF;;AEtIA;EACE,iBAAA;EACA,mBAAA;AFyIF;AEvIE;EAJF;IAKI,iBAAA;IACA,mBAAA;EF0IF;AACF;;AEvIA;EACE,eAAA;EACA,mBAAA;AF0IF;AExIE;EAJF;IAKI,iBAAA;EF2IF;AACF;;AExIA;EACE,iBAAA;EACA,mBAAA;AF2IF;;AExIA;EACE,iBAAA;EACA,mBAAA;AF2IF;;AEvIA;EACE,qCAAA;AF0IF;;AExIA;EACE,uCAAA;AF2IF;;AEzIA;EACE,wCAAA;AF4IF;;AE1IA;;EAEE,oCAAA;AF6IF;;AEzIA;EACE,yBAAA;AF4IF;;AE1IA;EACE,0BAAA;AF6IF;;AE3IA;EACE,qBAAA;AF8IF;;AE5IA;EACE,mBAAA;AF+IF;;AE7IA;EACE,kBAAA;AFgJF;;AE9IA;EACE,gBAAA;AFiJF;;AE/IA;EACE,iBAAA;AFkJF;;AE9IA;EACE,4BAAA;AFiJF;;AE/IA;EACE,8BAAA;AFkJF;;AEhJA;EACE,yBAAA;AFmJF;;AE/IA;EACE,uCAAA;AFkJF;;AEhJA;EACE,qCAAA;AFmJF;;AEjJA;EACE,yCAAA;AFoJF;;AElJA;EACE,oCAAA;AFqJF;;AEjJA;EACE,mCAAA;AFoJF;;AElJA;EACE,qCAAA;AFqJF;;AEjJA;EACE,gBAAA;AFoJF;;AElJA;EACE,mBAAA;AFqJF;;AEhJA;;;EAGE,qBAAA;EACA,oCAAA;EACA,iBAAA;EACA,wCAAA;EACA,kBAAA;EACA,qBAAA;EACA,yBAAA;EACA,sBAAA;EACA,eAAA;EACA,6BAAA;EACA,mBAAA;EACA,0CAAA;AFmJF;AEjJE;;;EACE,aAAA;AFqJJ;;AGzTA;;;;;EAKE,qBAAA;EACA,oCAAA;EACA,iBAAA;EACA,wCAAA;EACA,kBAAA;EACA,qBAAA;EACA,yBAAA;EACA,sBAAA;EACA,eAAA;EACA,6BAAA;EACA,uCAAA;EACA,qBAAA;EACA,yHACE;AH2TJ;;AGpTA;EACE,gBAAA;EACA,yBAAA;EACA,4BAAA;EACA,UAAA;AHuTF;AGrTE;EACE,qBAAA;AHuTJ;;AGnTA;EACE,uCAAA;EACA,mCAAA;EACA,yBAAA;AHsTF;AGpTE;EACE,yCAAA;EACA,qCAAA;EACA,4BAAA;AHsTJ;;AGlTA;EACE,qCAAA;EACA,iCAAA;EACA,yBAAA;AHqTF;AGnTE;EACE,yCAAA;EACA,qCAAA;EACA,0BAAA;AHqTJ;;AGjTA;EACE,gBAAA;EACA,mCAAA;EACA,4BAAA;AHoTF;AGlTE;EACE,uCAAA;EACA,yBAAA;AHoTJ;;AGhTA;EACE,gBAAA;EACA,iCAAA;EACA,0BAAA;AHmTF;AGjTE;EACE,qCAAA;EACA,yBAAA;AHmTJ;;AIlYA;EACE,oCAAA;EACA,0BAAA;AJqYF;;AIjYA;EACE,qCAAA;EACA,cAAA;EACA,mCAAA;EACA,kBAAA;EACA,8BAAA;AJoYF;;AIjYA;EACE,iBAAA;EACA,mBAAA;EACA,wBAAA;EACA,gBAAA;EACA,cAAA;AJoYF;;AIhYA;EACE,qCAAA;EACA,cAAA;EACA,mCAAA;EACA,aAAA;EACA,mBAAA;EACA,mBAAA;AJmYF;;AIhYA;EACE,aAAA;AJmYF;;AIhYA;EACE,WAAA;EACA,YAAA;AJmYF;;AIhYA;EACE,aAAA;EACA,yBAAA;AJmYF;;AIhYA;EACE,iBAAA;EACA,mBAAA;EACA,wBAAA;AJmYF","sourcesContent":["// _tokens.scss\r\n// Design tokens as CSS custom properties.\r\n// Defined on :root so they're available globally in the cascade.\r\n// Components reference var(--token-name) in their own SCSS files.\r\n\r\n:root {\r\n  // ─── Color: Brand ──────────────────────────────────────\r\n  --color-deep-sea: #005876; // corrected from #1a5f7a\r\n  --color-orange: #ff5100; // corrected from #f26522\r\n  --color-gun-powder: #38454a;\r\n  --color-cloud: #fafafa;\r\n  --color-white: #ffffff;\r\n  --color-off-white: #f5f7f8;\r\n  --color-text: #38454a; // gun-powder is the body text color\r\n  --color-teal-light: #e7f1f4; // icon background tint\r\n\r\n  // ─── Typography ────────────────────────────────────────\r\n  --font-family-base: \"Roboto\", sans-serif;\r\n\r\n  // Font size scale (mobile / desktop per style guide)\r\n  --font-size-display: 4.2rem; // .display-heading\r\n  --font-size-x-lg: 3.6rem; // .x-lg-heading\r\n  --font-size-lg: 3.2rem; // .lg-heading\r\n  --font-size-md: 2.2rem; // .md-heading\r\n  --font-size-sm-heading: 1.9rem; // .sm-heading\r\n  --font-size-caption: 1.7rem; // .caption\r\n  --font-size-base: 1rem; // body default\r\n\r\n  h1,\r\n  h2,\r\n  h3,\r\n  h4,\r\n  h5,\r\n  h6,\r\n  .display-heading,\r\n  .x-lg-heading,\r\n  .lg-heading,\r\n  .md-heading,\r\n  .sm-heading,\r\n  .caption {\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  // Line heights (desktop/960px+)\r\n  --line-height-display: 5.2rem;\r\n  --line-height-x-lg: 4rem;\r\n  --line-height-lg: 3.2rem;\r\n  --line-height-md: 2.8rem;\r\n  --line-height-sm-heading: 2.6rem;\r\n  --line-height-caption: 2.6rem;\r\n  --line-height-base: 1.6;\r\n\r\n  // Font weights\r\n  --font-weight-bold: 700;\r\n  --font-weight-semibold: 500;\r\n  --font-weight-regular: 400;\r\n  --font-weight-light: 300;\r\n\r\n  // ─── Spacing (4px base grid, recalculated for 1rem = 10px) ──\r\n  --space-1: 0.4rem; //  4px\r\n  --space-2: 0.8rem; //  8px\r\n  --space-3: 1.2rem; //  12px\r\n  --space-4: 1.6rem; //  16px\r\n  --space-5: 2rem; //  20px\r\n  --space-6: 2.4rem; //  24px\r\n  --space-8: 3.2rem; //  32px\r\n  --space-10: 4rem; //  40px\r\n  --space-12: 4.8rem; //  48px\r\n  --space-16: 6.4rem; //  64px\r\n  --space-20: 8rem; //  80px\r\n\r\n  // ─── Base font size ─────────────────────────────────────────\r\n  --font-size-base: 1.6rem; // 16px\r\n  --line-height-base: 1.6;\r\n\r\n  // ─── Layout ─────────────────────────────────────────────\r\n  --container-max-width: 1440px;\r\n  --container-padding: var(--space-6);\r\n\r\n  // ─── Border ─────────────────────────────────────────────\r\n  --border-radius-sm: 4px;\r\n  --border-radius-md: 8px;\r\n  --border-radius-lg: 16px;\r\n  --border-radius-full: 9999px;\r\n  --border-width: 1px;\r\n  --border-color: var(--color-gun-powder);\r\n\r\n  --border-radius-btn: 0.5rem;\r\n\r\n  // ─── Shadow ─────────────────────────────────────────────\r\n  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.08);\r\n  --shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.12);\r\n\r\n  // ─── Transitions ────────────────────────────────────────\r\n  --transition-base: 150ms ease-in-out;\r\n}\r\n",":root {\n  --color-deep-sea: #005876;\n  --color-orange: #ff5100;\n  --color-gun-powder: #38454a;\n  --color-cloud: #fafafa;\n  --color-white: #ffffff;\n  --color-off-white: #f5f7f8;\n  --color-text: #38454a;\n  --color-teal-light: #e7f1f4;\n  --font-family-base: \"Roboto\", sans-serif;\n  --font-size-display: 4.2rem;\n  --font-size-x-lg: 3.6rem;\n  --font-size-lg: 3.2rem;\n  --font-size-md: 2.2rem;\n  --font-size-sm-heading: 1.9rem;\n  --font-size-caption: 1.7rem;\n  --font-size-base: 1rem;\n}\n:root h1,\n:root h2,\n:root h3,\n:root h4,\n:root h5,\n:root h6,\n:root .display-heading,\n:root .x-lg-heading,\n:root .lg-heading,\n:root .md-heading,\n:root .sm-heading,\n:root .caption {\n  margin-bottom: 20px;\n}\n:root {\n  --line-height-display: 5.2rem;\n  --line-height-x-lg: 4rem;\n  --line-height-lg: 3.2rem;\n  --line-height-md: 2.8rem;\n  --line-height-sm-heading: 2.6rem;\n  --line-height-caption: 2.6rem;\n  --line-height-base: 1.6;\n  --font-weight-bold: 700;\n  --font-weight-semibold: 500;\n  --font-weight-regular: 400;\n  --font-weight-light: 300;\n  --space-1: 0.4rem;\n  --space-2: 0.8rem;\n  --space-3: 1.2rem;\n  --space-4: 1.6rem;\n  --space-5: 2rem;\n  --space-6: 2.4rem;\n  --space-8: 3.2rem;\n  --space-10: 4rem;\n  --space-12: 4.8rem;\n  --space-16: 6.4rem;\n  --space-20: 8rem;\n  --font-size-base: 1.6rem;\n  --line-height-base: 1.6;\n  --container-max-width: 1440px;\n  --container-padding: var(--space-6);\n  --border-radius-sm: 4px;\n  --border-radius-md: 8px;\n  --border-radius-lg: 16px;\n  --border-radius-full: 9999px;\n  --border-width: 1px;\n  --border-color: var(--color-gun-powder);\n  --border-radius-btn: 0.5rem;\n  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.08);\n  --shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.12);\n  --transition-base: 150ms ease-in-out;\n}\n\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nhtml {\n  font-size: 62.5%;\n  scroll-behavior: smooth;\n  -webkit-text-size-adjust: 100%;\n}\n\nbody {\n  font-family: var(--font-family-base);\n  font-size: 1.6rem;\n  font-weight: var(--font-weight-regular);\n  line-height: var(--line-height-base);\n  color: var(--color-text);\n  background-color: var(--color-white);\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  line-height: var(--line-height-base);\n}\n\np {\n  margin-bottom: var(--space-4);\n}\n\na {\n  color: var(--color-deep-sea);\n  text-decoration: underline;\n  transition: color var(--transition-base);\n}\na:hover {\n  opacity: 0.8;\n}\n\nul,\nol {\n  padding-left: var(--space-6);\n}\n\nli {\n  margin-bottom: var(--space-2);\n}\n\nimg {\n  max-width: 100%;\n  display: block;\n}\n\n:focus-visible {\n  outline: 2px solid var(--color-deep-sea);\n  outline-offset: 3px;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  margin-bottom: 20px;\n  font-weight: var(--font-weight-regular);\n}\n\n.display-heading,\n.x-lg-heading,\n.lg-heading,\n.md-heading,\n.sm-heading,\n.caption {\n  margin-bottom: 20px;\n}\n\n.display-heading {\n  font-size: 4.2rem;\n  line-height: 4.6rem;\n}\n@media (min-width: 960px) {\n  .display-heading {\n    line-height: 5.2rem;\n  }\n}\n\n.x-lg-heading {\n  font-size: 3.4rem;\n  line-height: 3.8rem;\n}\n@media (min-width: 960px) {\n  .x-lg-heading {\n    font-size: 3.6rem;\n    line-height: 4rem;\n  }\n}\n\n.lg-heading {\n  font-size: 2.8rem;\n  line-height: 2.8rem;\n}\n@media (min-width: 960px) {\n  .lg-heading {\n    font-size: 3.2rem;\n    line-height: 3.2rem;\n  }\n}\n\n.md-heading {\n  font-size: 2rem;\n  line-height: 2.8rem;\n}\n@media (min-width: 960px) {\n  .md-heading {\n    font-size: 2.2rem;\n  }\n}\n\n.sm-heading {\n  font-size: 1.9rem;\n  line-height: 2.6rem;\n}\n\n.caption {\n  font-size: 1.7rem;\n  line-height: 2.6rem;\n}\n\n.light-weight {\n  font-weight: var(--font-weight-light);\n}\n\n.regular-weight {\n  font-weight: var(--font-weight-regular);\n}\n\n.semibold {\n  font-weight: var(--font-weight-semibold);\n}\n\n.bold,\n.strong {\n  font-weight: var(--font-weight-bold);\n}\n\n.uppercase {\n  text-transform: uppercase;\n}\n\n.underline {\n  text-decoration: underline;\n}\n\n.no-underline {\n  text-decoration: none;\n}\n\n.no-wrap {\n  white-space: nowrap;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.text-left {\n  text-align: left;\n}\n\n.text-right {\n  text-align: right;\n}\n\n.color_deep-sea {\n  color: var(--color-deep-sea);\n}\n\n.color_gun-powder {\n  color: var(--color-gun-powder);\n}\n\n.color_white {\n  color: var(--color-white);\n}\n\n.background-color_deep-sea {\n  background-color: var(--color-deep-sea);\n}\n\n.background-color_bright-orange {\n  background-color: var(--color-orange);\n}\n\n.background-color_gun-powder {\n  background-color: var(--color-gun-powder);\n}\n\n.background-color_cloud {\n  background-color: var(--color-cloud);\n}\n\n.border-color_deep-sea {\n  border-color: var(--color-deep-sea);\n}\n\n.border-color_gun-powder {\n  border-color: var(--color-gun-powder);\n}\n\n.has-pd-top-5 {\n  padding-top: 5px;\n}\n\n.has-pd-bottom-5 {\n  padding-bottom: 5px;\n}\n\n[class*=btn],\n[class*=border],\n[class*=background-color] {\n  display: inline-block;\n  font-family: var(--font-family-base);\n  font-size: 1.6rem;\n  font-weight: var(--font-weight-semibold);\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n  letter-spacing: 0.08em;\n  cursor: pointer;\n  border: 2px solid transparent;\n  padding: 18px 100px;\n  transition: opacity var(--transition-base);\n}\n[class*=btn]:hover,\n[class*=border]:hover,\n[class*=background-color]:hover {\n  opacity: 0.85;\n}\n\n.btn-no-background,\n.background-color_deep-sea,\n.background-color_bright-orange,\n.border-color_deep-sea,\n.border-color_bright-orange {\n  display: inline-block;\n  font-family: var(--font-family-base);\n  font-size: 1.6rem;\n  font-weight: var(--font-weight-semibold);\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n  letter-spacing: 0.08em;\n  cursor: pointer;\n  border: 2px solid transparent;\n  border-radius: var(--border-radius-btn);\n  padding: 1.8rem 10rem;\n  transition: background-color var(--transition-base), color var(--transition-base), text-decoration var(--transition-base);\n}\n\n.btn-no-background {\n  background: none;\n  border-color: transparent;\n  color: var(--color-deep-sea);\n  padding: 0;\n}\n.btn-no-background:hover {\n  text-decoration: none;\n}\n\n.background-color_deep-sea {\n  background-color: var(--color-deep-sea);\n  border-color: var(--color-deep-sea);\n  color: var(--color-white);\n}\n.background-color_deep-sea:hover {\n  background-color: var(--color-gray-light);\n  border-color: var(--color-gray-light);\n  color: var(--color-deep-sea);\n}\n\n.background-color_bright-orange {\n  background-color: var(--color-orange);\n  border-color: var(--color-orange);\n  color: var(--color-white);\n}\n.background-color_bright-orange:hover {\n  background-color: var(--color-gray-light);\n  border-color: var(--color-gray-light);\n  color: var(--color-orange);\n}\n\n.border-color_deep-sea {\n  background: none;\n  border-color: var(--color-deep-sea);\n  color: var(--color-deep-sea);\n}\n.border-color_deep-sea:hover {\n  background-color: var(--color-deep-sea);\n  color: var(--color-white);\n}\n\n.border-color_bright-orange {\n  background: none;\n  border-color: var(--color-orange);\n  color: var(--color-orange);\n}\n.border-color_bright-orange:hover {\n  background-color: var(--color-orange);\n  color: var(--color-white);\n}\n\n.about {\n  background-color: var(--color-white);\n  padding: var(--space-16) 0;\n}\n\n.about__intro {\n  max-width: var(--container-max-width);\n  margin: 0 auto;\n  padding: 0 var(--container-padding);\n  text-align: center;\n  margin-bottom: var(--space-12);\n}\n\n.about__intro-body {\n  font-size: 1.6rem;\n  line-height: 2.8rem;\n  color: var(--color-text);\n  max-width: 900px;\n  margin: 0 auto;\n}\n\n.about__container {\n  max-width: var(--container-max-width);\n  margin: 0 auto;\n  padding: 0 var(--container-padding);\n  display: flex;\n  align-items: center;\n  gap: var(--space-8);\n}\n\n.about__media {\n  flex: 0 0 38%;\n}\n\n.about__image {\n  width: 100%;\n  height: auto;\n}\n\n.about__content {\n  flex: 0 0 62%;\n  padding: 0 var(--space-8);\n}\n\n.about__body {\n  font-size: 1.6rem;\n  line-height: 2.8rem;\n  color: var(--color-text);\n}","*,\r\n*::before,\r\n*::after {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nhtml {\r\n  font-size: 62.5%; // 1rem = 10px, matches source of truth rem scale\r\n  scroll-behavior: smooth;\r\n  -webkit-text-size-adjust: 100%;\r\n}\r\n\r\nbody {\r\n  font-family: var(--font-family-base);\r\n  font-size: 1.6rem; // restores 16px body text\r\n  font-weight: var(--font-weight-regular);\r\n  line-height: var(--line-height-base);\r\n  color: var(--color-text);\r\n  background-color: var(--color-white);\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  line-height: var(--line-height-base);\r\n}\r\n\r\np {\r\n  margin-bottom: var(--space-4);\r\n}\r\n\r\na {\r\n  color: var(--color-deep-sea);\r\n  text-decoration: underline;\r\n  transition: color var(--transition-base);\r\n\r\n  &:hover {\r\n    opacity: 0.8;\r\n  }\r\n}\r\n\r\nul,\r\nol {\r\n  padding-left: var(--space-6);\r\n}\r\n\r\nli {\r\n  margin-bottom: var(--space-2);\r\n}\r\n\r\nimg {\r\n  max-width: 100%;\r\n  display: block;\r\n}\r\n\r\n:focus-visible {\r\n  outline: 2px solid var(--color-deep-sea);\r\n  outline-offset: 3px;\r\n}\r\n","// ─── Font sizes ─────────────────────────────────────────────\r\n// Base heading reset — margin only, no font-weight\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  margin-bottom: 20px;\r\n  font-weight: var(--font-weight-regular);\r\n}\r\n\r\n// Heading size utility classes — weight set separately so .light-weight can override\r\n.display-heading,\r\n.x-lg-heading,\r\n.lg-heading,\r\n.md-heading,\r\n.sm-heading,\r\n.caption {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.display-heading {\r\n  font-size: 4.2rem;\r\n  line-height: 4.6rem;\r\n\r\n  @media (min-width: 960px) {\r\n    line-height: 5.2rem;\r\n  }\r\n}\r\n\r\n.x-lg-heading {\r\n  font-size: 3.4rem;\r\n  line-height: 3.8rem;\r\n\r\n  @media (min-width: 960px) {\r\n    font-size: 3.6rem;\r\n    line-height: 4rem;\r\n  }\r\n}\r\n\r\n.lg-heading {\r\n  font-size: 2.8rem;\r\n  line-height: 2.8rem;\r\n\r\n  @media (min-width: 960px) {\r\n    font-size: 3.2rem;\r\n    line-height: 3.2rem;\r\n  }\r\n}\r\n\r\n.md-heading {\r\n  font-size: 2rem;\r\n  line-height: 2.8rem;\r\n\r\n  @media (min-width: 960px) {\r\n    font-size: 2.2rem;\r\n  }\r\n}\r\n\r\n.sm-heading {\r\n  font-size: 1.9rem;\r\n  line-height: 2.6rem;\r\n}\r\n\r\n.caption {\r\n  font-size: 1.7rem;\r\n  line-height: 2.6rem;\r\n}\r\n\r\n// ─── Font weights ────────────────────────────────────────────\r\n.light-weight {\r\n  font-weight: var(--font-weight-light);\r\n}\r\n.regular-weight {\r\n  font-weight: var(--font-weight-regular);\r\n}\r\n.semibold {\r\n  font-weight: var(--font-weight-semibold);\r\n}\r\n.bold,\r\n.strong {\r\n  font-weight: var(--font-weight-bold);\r\n}\r\n\r\n// ─── Text styles ─────────────────────────────────────────────\r\n.uppercase {\r\n  text-transform: uppercase;\r\n}\r\n.underline {\r\n  text-decoration: underline;\r\n}\r\n.no-underline {\r\n  text-decoration: none;\r\n}\r\n.no-wrap {\r\n  white-space: nowrap;\r\n}\r\n.text-center {\r\n  text-align: center;\r\n}\r\n.text-left {\r\n  text-align: left;\r\n}\r\n.text-right {\r\n  text-align: right;\r\n}\r\n\r\n// ─── Colors ──────────────────────────────────────────────────\r\n.color_deep-sea {\r\n  color: var(--color-deep-sea);\r\n}\r\n.color_gun-powder {\r\n  color: var(--color-gun-powder);\r\n}\r\n.color_white {\r\n  color: var(--color-white);\r\n}\r\n\r\n// ─── Backgrounds ─────────────────────────────────────────────\r\n.background-color_deep-sea {\r\n  background-color: var(--color-deep-sea);\r\n}\r\n.background-color_bright-orange {\r\n  background-color: var(--color-orange);\r\n}\r\n.background-color_gun-powder {\r\n  background-color: var(--color-gun-powder);\r\n}\r\n.background-color_cloud {\r\n  background-color: var(--color-cloud);\r\n}\r\n\r\n// ─── Border colors ───────────────────────────────────────────\r\n.border-color_deep-sea {\r\n  border-color: var(--color-deep-sea);\r\n}\r\n.border-color_gun-powder {\r\n  border-color: var(--color-gun-powder);\r\n}\r\n\r\n// ─── Spacing ─────────────────────────────────────────────────\r\n.has-pd-top-5 {\r\n  padding-top: 5px;\r\n}\r\n.has-pd-bottom-5 {\r\n  padding-bottom: 5px;\r\n}\r\n\r\n// ─── Button base ─────────────────────────────────────────────\r\n// Matches source of truth: base styles applied to anything with btn or border in class\r\n[class*=\"btn\"],\r\n[class*=\"border\"],\r\n[class*=\"background-color\"] {\r\n  display: inline-block;\r\n  font-family: var(--font-family-base);\r\n  font-size: 1.6rem;\r\n  font-weight: var(--font-weight-semibold);\r\n  text-align: center;\r\n  text-decoration: none;\r\n  text-transform: uppercase;\r\n  letter-spacing: 0.08em;\r\n  cursor: pointer;\r\n  border: 2px solid transparent;\r\n  padding: 18px 100px; // matches source of truth DevTools\r\n  transition: opacity var(--transition-base);\r\n\r\n  &:hover {\r\n    opacity: 0.85;\r\n  }\r\n}\r\n","// Button.scss\r\n// Base styles and all variants for buttons and anchor CTAs.\r\n\r\n// ─── Base ────────────────────────────────────────────────────\r\n.btn-no-background,\r\n.background-color_deep-sea,\r\n.background-color_bright-orange,\r\n.border-color_deep-sea,\r\n.border-color_bright-orange {\r\n  display: inline-block;\r\n  font-family: var(--font-family-base);\r\n  font-size: 1.6rem;\r\n  font-weight: var(--font-weight-semibold);\r\n  text-align: center;\r\n  text-decoration: none;\r\n  text-transform: uppercase;\r\n  letter-spacing: 0.08em;\r\n  cursor: pointer;\r\n  border: 2px solid transparent;\r\n  border-radius: var(--border-radius-btn);\r\n  padding: 1.8rem 10rem;\r\n  transition:\r\n    background-color var(--transition-base),\r\n    color var(--transition-base),\r\n    text-decoration var(--transition-base);\r\n}\r\n\r\n// ─── Variants + hovers ───────────────────────────────────────\r\n\r\n.btn-no-background {\r\n  background: none;\r\n  border-color: transparent;\r\n  color: var(--color-deep-sea);\r\n  padding: 0;\r\n\r\n  &:hover {\r\n    text-decoration: none;\r\n  }\r\n}\r\n\r\n.background-color_deep-sea {\r\n  background-color: var(--color-deep-sea);\r\n  border-color: var(--color-deep-sea);\r\n  color: var(--color-white);\r\n\r\n  &:hover {\r\n    background-color: var(--color-gray-light);\r\n    border-color: var(--color-gray-light);\r\n    color: var(--color-deep-sea);\r\n  }\r\n}\r\n\r\n.background-color_bright-orange {\r\n  background-color: var(--color-orange);\r\n  border-color: var(--color-orange);\r\n  color: var(--color-white);\r\n\r\n  &:hover {\r\n    background-color: var(--color-gray-light);\r\n    border-color: var(--color-gray-light);\r\n    color: var(--color-orange);\r\n  }\r\n}\r\n\r\n.border-color_deep-sea {\r\n  background: none;\r\n  border-color: var(--color-deep-sea);\r\n  color: var(--color-deep-sea);\r\n\r\n  &:hover {\r\n    background-color: var(--color-deep-sea);\r\n    color: var(--color-white);\r\n  }\r\n}\r\n\r\n.border-color_bright-orange {\r\n  background: none;\r\n  border-color: var(--color-orange);\r\n  color: var(--color-orange);\r\n\r\n  &:hover {\r\n    background-color: var(--color-orange);\r\n    color: var(--color-white);\r\n  }\r\n}\r\n","// About.scss\r\n// Two-part section: centered intro, then two-column image + text.\r\n\r\n.about {\r\n  background-color: var(--color-white);\r\n  padding: var(--space-16) 0;\r\n}\r\n\r\n// ─── Intro: centered heading + body ──────────────────────────\r\n.about__intro {\r\n  max-width: var(--container-max-width);\r\n  margin: 0 auto;\r\n  padding: 0 var(--container-padding);\r\n  text-align: center;\r\n  margin-bottom: var(--space-12);\r\n}\r\n\r\n.about__intro-body {\r\n  font-size: 1.6rem;\r\n  line-height: 2.8rem;\r\n  color: var(--color-text);\r\n  max-width: 900px;\r\n  margin: 0 auto;\r\n}\r\n\r\n// ─── Two-column: image left, content right ───────────────────\r\n.about__container {\r\n  max-width: var(--container-max-width);\r\n  margin: 0 auto;\r\n  padding: 0 var(--container-padding);\r\n  display: flex;\r\n  align-items: center;\r\n  gap: var(--space-8);\r\n}\r\n\r\n.about__media {\r\n  flex: 0 0 38%;\r\n}\r\n\r\n.about__image {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.about__content {\r\n  flex: 0 0 62%;\r\n  padding: 0 var(--space-8);\r\n}\r\n\r\n.about__body {\r\n  font-size: 1.6rem;\r\n  line-height: 2.8rem;\r\n  color: var(--color-text);\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ },
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/pages/StyleGuide.scss"
+/*!***************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/pages/StyleGuide.scss ***!
+  \***************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.style-guide {
+  display: flex;
+  min-height: 100vh;
+  font-family: var(--font-family-base);
+}
+
+.style-guide__nav {
+  width: 240px;
+  flex-shrink: 0;
+  padding: var(--space-8) var(--space-6);
+  border-right: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+.style-guide__nav > ul {
+  list-style: disc;
+  padding-left: var(--space-5);
+}
+.style-guide__nav > ul > li {
+  margin-bottom: var(--space-5);
+}
+.style-guide__nav > ul > li > span {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.4rem;
+}
+.style-guide__nav > ul > li > ul {
+  list-style: circle;
+  padding-left: var(--space-5);
+  margin-top: var(--space-2);
+}
+.style-guide__nav > ul > li > ul li {
+  margin-bottom: var(--space-2);
+}
+.style-guide__nav > ul > li > ul a {
+  font-size: 1.4rem;
+  color: var(--color-deep-sea);
+  text-decoration: underline;
+}
+.style-guide__nav > ul > li > ul a:hover {
+  opacity: 0.75;
+}
+
+.style-guide__main {
+  flex: 1;
+  padding: var(--space-8) var(--space-10);
+  max-width: 1100px;
+}
+.style-guide__main h1 {
+  font-size: 3.6rem;
+  font-weight: var(--font-weight-regular);
+  margin-bottom: var(--space-8);
+}
+
+.sg-section {
+  margin-bottom: var(--space-16);
+}
+.sg-section__title {
+  font-size: 2.4rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid #e0e0e0;
+}
+.sg-section__subsection {
+  margin-bottom: var(--space-10);
+}
+.sg-section__subtitle {
+  font-size: 2rem;
+  font-weight: var(--font-weight-regular);
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid #e0e0e0;
+}
+.sg-section__subtitle em {
+  font-size: 1.4rem;
+  color: #666;
+  font-style: italic;
+  margin-left: var(--space-2);
+}
+
+.sg-font-stack {
+  font-size: 1.6rem;
+}
+.sg-font-stack strong {
+  font-weight: var(--font-weight-bold);
+}
+
+.sg-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.4rem;
+}
+.sg-table th {
+  background-color: var(--color-deep-sea);
+  color: var(--color-white);
+  padding: 1.2rem 2rem;
+  text-align: center;
+  font-weight: var(--font-weight-semibold);
+}
+.sg-table td {
+  padding: 1.6rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: middle;
+  font-size: 1.4rem;
+  color: #555;
+}
+.sg-table tr:nth-child(even) td {
+  background-color: #f0f0f0;
+}
+.sg-table td:first-child {
+  text-align: center;
+}
+
+.sg-table--text-styles td:first-child {
+  font-family: monospace;
+  font-size: 1.3rem;
+  color: var(--color-gun-powder);
+  text-align: left;
+  padding-left: var(--space-6);
+}
+.sg-table--text-styles td:last-child {
+  font-family: monospace;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.sg-table--font-weights td:first-child {
+  font-family: monospace;
+  font-size: 1.3rem;
+  text-align: left;
+  padding-left: var(--space-6);
+}
+.sg-table--font-weights td:last-child {
+  font-family: monospace;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.sg-palette-label {
+  font-size: 1.4rem;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-4);
+  margin-top: var(--space-6);
+  color: var(--color-gun-powder);
+}
+
+.sg-swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  margin-bottom: var(--space-8);
+}
+
+.sg-swatch {
+  display: flex;
+  flex-direction: column;
+}
+.sg-swatch__color {
+  width: 200px;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.sg-swatch__info {
+  margin-top: var(--space-2);
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: var(--color-gun-powder);
+}
+.sg-swatch__info strong {
+  display: block;
+  font-weight: var(--font-weight-semibold);
+}
+.sg-swatch__info code {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.sg-color-classes {
+  display: flex;
+  gap: var(--space-10);
+  flex-wrap: wrap;
+}
+
+.sg-color-class-group h4 {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-4);
+  color: var(--color-gun-powder);
+}
+.sg-color-class-group ul {
+  list-style: disc;
+  padding-left: var(--space-5);
+}
+.sg-color-class-group ul li {
+  font-family: monospace;
+  font-size: 1.3rem;
+  margin-bottom: var(--space-2);
+}
+
+.sg-button-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.sg-button-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid #f0f0f0;
+}
+.sg-button-row:last-child {
+  border-bottom: none;
+}
+
+.sg-button-meta {
+  min-width: 280px;
+}
+.sg-button-meta__label {
+  font-size: 1.3rem;
+  color: #555;
+  margin-bottom: var(--space-1);
+}
+.sg-button-meta__label strong {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-gun-powder);
+}`, "",{"version":3,"sources":["webpack://./src/styles/pages/StyleGuide.scss"],"names":[],"mappings":"AAKA;EACE,aAAA;EACA,iBAAA;EACA,oCAAA;AAJF;;AAQA;EACE,YAAA;EACA,cAAA;EACA,sCAAA;EACA,+BAAA;EACA,gBAAA;EACA,MAAA;EACA,aAAA;EACA,gBAAA;AALF;AAQE;EACE,gBAAA;EACA,4BAAA;AANJ;AAQI;EACE,6BAAA;AANN;AAQM;EACE,oCAAA;EACA,iBAAA;AANR;AAUM;EACE,kBAAA;EACA,4BAAA;EACA,0BAAA;AARR;AAUQ;EACE,6BAAA;AARV;AAWQ;EACE,iBAAA;EACA,4BAAA;EACA,0BAAA;AATV;AAWU;EACE,aAAA;AATZ;;AAkBA;EACE,OAAA;EACA,uCAAA;EACA,iBAAA;AAfF;AAiBE;EACE,iBAAA;EACA,uCAAA;EACA,6BAAA;AAfJ;;AAoBA;EACE,8BAAA;AAjBF;AAmBE;EACE,iBAAA;EACA,oCAAA;EACA,6BAAA;EACA,8BAAA;EACA,gCAAA;AAjBJ;AAoBE;EACE,8BAAA;AAlBJ;AAqBE;EACE,eAAA;EACA,uCAAA;EACA,6BAAA;EACA,8BAAA;EACA,gCAAA;AAnBJ;AAqBI;EACE,iBAAA;EACA,WAAA;EACA,kBAAA;EACA,2BAAA;AAnBN;;AAyBA;EACE,iBAAA;AAtBF;AAwBE;EACE,oCAAA;AAtBJ;;AA2BA;EACE,WAAA;EACA,yBAAA;EACA,iBAAA;AAxBF;AA0BE;EACE,uCAAA;EACA,yBAAA;EACA,oBAAA;EACA,kBAAA;EACA,wCAAA;AAxBJ;AA2BE;EACE,oBAAA;EACA,kBAAA;EACA,gCAAA;EACA,sBAAA;EACA,iBAAA;EACA,WAAA;AAzBJ;AA6BE;EACE,yBAAA;AA3BJ;AA+BE;EACE,kBAAA;AA7BJ;;AAmCE;EACE,sBAAA;EACA,iBAAA;EACA,8BAAA;EACA,gBAAA;EACA,4BAAA;AAhCJ;AAmCE;EACE,sBAAA;EACA,iBAAA;EACA,gBAAA;AAjCJ;;AAuCE;EACE,sBAAA;EACA,iBAAA;EACA,gBAAA;EACA,4BAAA;AApCJ;AAuCE;EACE,sBAAA;EACA,iBAAA;EACA,gBAAA;AArCJ;;AA0CA;EACE,iBAAA;EACA,wCAAA;EACA,6BAAA;EACA,0BAAA;EACA,8BAAA;AAvCF;;AA0CA;EACE,aAAA;EACA,eAAA;EACA,mBAAA;EACA,6BAAA;AAvCF;;AA0CA;EACE,aAAA;EACA,sBAAA;AAvCF;AAyCE;EACE,YAAA;EACA,aAAA;EACA,oCAAA;AAvCJ;AA0CE;EACE,0BAAA;EACA,iBAAA;EACA,gBAAA;EACA,8BAAA;AAxCJ;AA0CI;EACE,cAAA;EACA,wCAAA;AAxCN;AA2CI;EACE,sBAAA;EACA,iBAAA;EACA,WAAA;AAzCN;;AA+CA;EACE,aAAA;EACA,oBAAA;EACA,eAAA;AA5CF;;AAgDE;EACE,iBAAA;EACA,wCAAA;EACA,6BAAA;EACA,8BAAA;AA7CJ;AAgDE;EACE,gBAAA;EACA,4BAAA;AA9CJ;AAgDI;EACE,sBAAA;EACA,iBAAA;EACA,6BAAA;AA9CN;;AAoDA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;AAjDF;;AAoDA;EACE,aAAA;EACA,mBAAA;EACA,mBAAA;EACA,8BAAA;EACA,gCAAA;AAjDF;AAmDE;EACE,mBAAA;AAjDJ;;AAqDA;EACE,gBAAA;AAlDF;AAoDE;EACE,iBAAA;EACA,WAAA;EACA,6BAAA;AAlDJ;AAoDI;EACE,wCAAA;EACA,8BAAA;AAlDN","sourcesContent":["// StyleGuide.scss\r\n// Layout and styles specific to the Style Guide page.\r\n// Uses tokens from _tokens.scss via CSS custom properties.\r\n\r\n// ─── Page Layout ─────────────────────────────────────────────\r\n.style-guide {\r\n  display: flex;\r\n  min-height: 100vh;\r\n  font-family: var(--font-family-base);\r\n}\r\n\r\n// ─── Sidebar Nav ─────────────────────────────────────────────\r\n.style-guide__nav {\r\n  width: 240px;\r\n  flex-shrink: 0;\r\n  padding: var(--space-8) var(--space-6);\r\n  border-right: 1px solid #e0e0e0;\r\n  position: sticky;\r\n  top: 0;\r\n  height: 100vh;\r\n  overflow-y: auto;\r\n\r\n  // Top-level nav items (Typography, Color Schemes, etc.)\r\n  > ul {\r\n    list-style: disc;\r\n    padding-left: var(--space-5);\r\n\r\n    > li {\r\n      margin-bottom: var(--space-5);\r\n\r\n      > span {\r\n        font-weight: var(--font-weight-bold);\r\n        font-size: 1.4rem;\r\n      }\r\n\r\n      // Sub-items (Font Stack, Font Sizes, etc.)\r\n      > ul {\r\n        list-style: circle;\r\n        padding-left: var(--space-5);\r\n        margin-top: var(--space-2);\r\n\r\n        li {\r\n          margin-bottom: var(--space-2);\r\n        }\r\n\r\n        a {\r\n          font-size: 1.4rem;\r\n          color: var(--color-deep-sea);\r\n          text-decoration: underline;\r\n\r\n          &:hover {\r\n            opacity: 0.75;\r\n          }\r\n        }\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n// ─── Main Content ─────────────────────────────────────────────\r\n.style-guide__main {\r\n  flex: 1;\r\n  padding: var(--space-8) var(--space-10);\r\n  max-width: 1100px;\r\n\r\n  h1 {\r\n    font-size: 3.6rem;\r\n    font-weight: var(--font-weight-regular);\r\n    margin-bottom: var(--space-8);\r\n  }\r\n}\r\n\r\n// ─── Section ─────────────────────────────────────────────────\r\n.sg-section {\r\n  margin-bottom: var(--space-16);\r\n\r\n  &__title {\r\n    font-size: 2.4rem;\r\n    font-weight: var(--font-weight-bold);\r\n    margin-bottom: var(--space-6);\r\n    padding-bottom: var(--space-4);\r\n    border-bottom: 1px solid #e0e0e0;\r\n  }\r\n\r\n  &__subsection {\r\n    margin-bottom: var(--space-10);\r\n  }\r\n\r\n  &__subtitle {\r\n    font-size: 2rem;\r\n    font-weight: var(--font-weight-regular);\r\n    margin-bottom: var(--space-4);\r\n    padding-bottom: var(--space-3);\r\n    border-bottom: 1px solid #e0e0e0;\r\n\r\n    em {\r\n      font-size: 1.4rem;\r\n      color: #666;\r\n      font-style: italic;\r\n      margin-left: var(--space-2);\r\n    }\r\n  }\r\n}\r\n\r\n// ─── Font Stack ──────────────────────────────────────────────\r\n.sg-font-stack {\r\n  font-size: 1.6rem;\r\n\r\n  strong {\r\n    font-weight: var(--font-weight-bold);\r\n  }\r\n}\r\n\r\n// ─── Font Sizes Table ────────────────────────────────────────\r\n.sg-table {\r\n  width: 100%;\r\n  border-collapse: collapse;\r\n  font-size: 1.4rem;\r\n\r\n  th {\r\n    background-color: var(--color-deep-sea);\r\n    color: var(--color-white);\r\n    padding: 1.2rem 2rem;\r\n    text-align: center;\r\n    font-weight: var(--font-weight-semibold);\r\n  }\r\n\r\n  td {\r\n    padding: 1.6rem 2rem;\r\n    text-align: center;\r\n    border-bottom: 1px solid #e8e8e8;\r\n    vertical-align: middle;\r\n    font-size: 1.4rem;\r\n    color: #555;\r\n  }\r\n\r\n  // Alternating row shading\r\n  tr:nth-child(even) td {\r\n    background-color: #f0f0f0;\r\n  }\r\n\r\n  // Class name column — render at actual size\r\n  td:first-child {\r\n    text-align: center;\r\n  }\r\n}\r\n\r\n// ─── Text Styles Table ───────────────────────────────────────\r\n.sg-table--text-styles {\r\n  td:first-child {\r\n    font-family: monospace;\r\n    font-size: 1.3rem;\r\n    color: var(--color-gun-powder);\r\n    text-align: left;\r\n    padding-left: var(--space-6);\r\n  }\r\n\r\n  td:last-child {\r\n    font-family: monospace;\r\n    font-size: 1.3rem;\r\n    text-align: left;\r\n  }\r\n}\r\n\r\n// ─── Font Weights Table ──────────────────────────────────────\r\n.sg-table--font-weights {\r\n  td:first-child {\r\n    font-family: monospace;\r\n    font-size: 1.3rem;\r\n    text-align: left;\r\n    padding-left: var(--space-6);\r\n  }\r\n\r\n  td:last-child {\r\n    font-family: monospace;\r\n    font-size: 1.3rem;\r\n    text-align: left;\r\n  }\r\n}\r\n\r\n// ─── Color Swatches ──────────────────────────────────────────\r\n.sg-palette-label {\r\n  font-size: 1.4rem;\r\n  font-weight: var(--font-weight-semibold);\r\n  margin-bottom: var(--space-4);\r\n  margin-top: var(--space-6);\r\n  color: var(--color-gun-powder);\r\n}\r\n\r\n.sg-swatches {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  gap: var(--space-5);\r\n  margin-bottom: var(--space-8);\r\n}\r\n\r\n.sg-swatch {\r\n  display: flex;\r\n  flex-direction: column;\r\n\r\n  &__color {\r\n    width: 200px;\r\n    height: 100px;\r\n    border: 1px solid rgba(0, 0, 0, 0.1);\r\n  }\r\n\r\n  &__info {\r\n    margin-top: var(--space-2);\r\n    font-size: 1.3rem;\r\n    line-height: 1.8;\r\n    color: var(--color-gun-powder);\r\n\r\n    strong {\r\n      display: block;\r\n      font-weight: var(--font-weight-semibold);\r\n    }\r\n\r\n    code {\r\n      font-family: monospace;\r\n      font-size: 1.2rem;\r\n      color: #555;\r\n    }\r\n  }\r\n}\r\n\r\n// ─── Color Classes ───────────────────────────────────────────\r\n.sg-color-classes {\r\n  display: flex;\r\n  gap: var(--space-10);\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.sg-color-class-group {\r\n  h4 {\r\n    font-size: 1.5rem;\r\n    font-weight: var(--font-weight-semibold);\r\n    margin-bottom: var(--space-4);\r\n    color: var(--color-gun-powder);\r\n  }\r\n\r\n  ul {\r\n    list-style: disc;\r\n    padding-left: var(--space-5);\r\n\r\n    li {\r\n      font-family: monospace;\r\n      font-size: 1.3rem;\r\n      margin-bottom: var(--space-2);\r\n    }\r\n  }\r\n}\r\n\r\n// ─── Buttons Section ─────────────────────────────────────────\r\n.sg-button-grid {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: var(--space-8);\r\n}\r\n\r\n.sg-button-row {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: var(--space-8);\r\n  padding-bottom: var(--space-6);\r\n  border-bottom: 1px solid #f0f0f0;\r\n\r\n  &:last-child {\r\n    border-bottom: none;\r\n  }\r\n}\r\n\r\n.sg-button-meta {\r\n  min-width: 280px;\r\n\r\n  &__label {\r\n    font-size: 1.3rem;\r\n    color: #555;\r\n    margin-bottom: var(--space-1);\r\n\r\n    strong {\r\n      font-weight: var(--font-weight-semibold);\r\n      color: var(--color-gun-powder);\r\n    }\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -35683,222 +35629,6 @@ if (false) // removed by dead control flow
 
 /***/ },
 
-/***/ "./src/styles/components/About.scss"
-/*!******************************************!*\
-  !*** ./src/styles/components/About.scss ***!
-  \******************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_About_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./About.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/About.scss");
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var options = {};
-
-options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
-options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
-
-      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
-    
-options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
-options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_About_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
-
-
-
-
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_About_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_About_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_About_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
-
-
-/***/ },
-
-/***/ "./src/styles/components/Header.scss"
-/*!*******************************************!*\
-  !*** ./src/styles/components/Header.scss ***!
-  \*******************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Header_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./Header.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/Header.scss");
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var options = {};
-
-options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
-options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
-
-      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
-    
-options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
-options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Header_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
-
-
-
-
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Header_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Header_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Header_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
-
-
-/***/ },
-
-/***/ "./src/styles/components/Hero.scss"
-/*!*****************************************!*\
-  !*** ./src/styles/components/Hero.scss ***!
-  \*****************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Hero_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./Hero.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/Hero.scss");
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var options = {};
-
-options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
-options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
-
-      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
-    
-options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
-options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Hero_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
-
-
-
-
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Hero_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Hero_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Hero_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
-
-
-/***/ },
-
-/***/ "./src/styles/components/Plans.scss"
-/*!******************************************!*\
-  !*** ./src/styles/components/Plans.scss ***!
-  \******************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Plans_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./Plans.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/components/Plans.scss");
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var options = {};
-
-options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
-options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
-
-      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
-    
-options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
-options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Plans_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
-
-
-
-
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Plans_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Plans_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_Plans_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
-
-
-/***/ },
-
 /***/ "./src/styles/main.scss"
 /*!******************************!*\
   !*** ./src/styles/main.scss ***!
@@ -35949,6 +35679,60 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ },
+
+/***/ "./src/styles/pages/StyleGuide.scss"
+/*!******************************************!*\
+  !*** ./src/styles/pages/StyleGuide.scss ***!
+  \******************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_StyleGuide_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./StyleGuide.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/pages/StyleGuide.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_StyleGuide_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_StyleGuide_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_StyleGuide_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_StyleGuide_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ },
@@ -36218,168 +36002,6 @@ function styleTagTransform(css, styleElement) {
 }
 module.exports = styleTagTransform;
 
-/***/ },
-
-/***/ "./src/components/About.tsx"
-/*!**********************************!*\
-  !*** ./src/components/About.tsx ***!
-  \**********************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-/* harmony import */ var _styles_components_About_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/components/About.scss */ "./src/styles/components/About.scss");
-/* harmony import */ var _assets_woman_at_cpu_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/woman-at-cpu.png */ "./src/assets/woman-at-cpu.png");
-
-
-
-var About = function () {
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", { className: "about", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "about__intro", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", { className: "x-lg-heading regular-weight text-center", children: "What is a Surge Protection Plan?" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { className: "about__intro-body text-center", children: "You'll receive up to $2,000 of annual coverage for eligible electronic devices and kitchen appliances in case of a damaging power surge." })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "about__container", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "about__media", "aria-hidden": "true", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: _assets_woman_at_cpu_png__WEBPACK_IMPORTED_MODULE_2__, alt: "", className: "about__image" }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "about__content", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", { className: "lg-heading regular-weight color_deep-sea", children: "How does a Surge Protection Plan work?" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { className: "about__body", children: "Direct Energy's Surge Protect plans provide up to a total of $2,000 in annual coverage for eligible items with no long-term contract and no service call fee. Plus, any needed service will be provided by licensed, insured, and background-checked Master electricians." })] })] })] }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
-
-
-/***/ },
-
-/***/ "./src/components/Header.tsx"
-/*!***********************************!*\
-  !*** ./src/components/Header.tsx ***!
-  \***********************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-/* harmony import */ var _styles_components_Header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/components/Header.scss */ "./src/styles/components/Header.scss");
-
-
-var Header = function (_a) {
-    var _b = _a.styleGuideUrl, styleGuideUrl = _b === void 0 ? "/demo/nrg-assessment/style-guide/" : _b;
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("header", { className: "site-header", role: "banner", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "site-header__bar", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: styleGuideUrl, className: "site-header__link underline color_white has-pd-top-5 has-pd-bottom-5", style: { display: "inline-block" }, children: "Style Guide Available!" }) }) }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
-
-
-/***/ },
-
-/***/ "./src/components/Hero.tsx"
-/*!*********************************!*\
-  !*** ./src/components/Hero.tsx ***!
-  \*********************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-/* harmony import */ var _styles_components_Hero_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/components/Hero.scss */ "./src/styles/components/Hero.scss");
-/* harmony import */ var _assets_man_on_cpu_potatoa_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/man-on-cpu-potatoa.png */ "./src/assets/man-on-cpu-potatoa.png");
-/* harmony import */ var _assets_gray_curve_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/gray-curve.svg */ "./src/assets/gray-curve.svg");
-
-
-
-
-var Hero = function (_a) {
-    var _b = _a.title, title = _b === void 0 ? "Surge Protection Plans" : _b, _c = _a.body, body = _c === void 0 ? "When bad weather threatens your eletronics and appliances. Direct Energy Surge Protect provided by Allied Warranty will make sure you are protected with our surge protection plans." : _c, _d = _a.ctaLabel, ctaLabel = _d === void 0 ? "LEARN MORE" : _d, _e = _a.ctaHref, ctaHref = _e === void 0 ? "#" : _e;
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", { className: "hero", "aria-label": "Surge Protection Plans", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "hero__container", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "hero__content", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", { className: "display-heading light-weight hero__title", children: title }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { className: "hero__body", children: body }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: ctaHref, className: "border-color_deep-sea uppercase", children: ctaLabel })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "hero__media", "aria-hidden": "true", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "hero__image-wrapper", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: _assets_man_on_cpu_potatoa_png__WEBPACK_IMPORTED_MODULE_2__, alt: "Person working on a laptop", className: "hero__image" }) }) })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: _assets_gray_curve_svg__WEBPACK_IMPORTED_MODULE_3__, alt: "", "aria-hidden": "true", className: "hero__curve" })] }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero);
-
-
-/***/ },
-
-/***/ "./src/components/Plans.tsx"
-/*!**********************************!*\
-  !*** ./src/components/Plans.tsx ***!
-  \**********************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-/* harmony import */ var _styles_components_Plans_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/components/Plans.scss */ "./src/styles/components/Plans.scss");
-/* harmony import */ var _assets_plug_circle_bolt_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/plug-circle-bolt.svg */ "./src/assets/plug-circle-bolt.svg");
-
-
-
-var plans = [
-    {
-        title: "Direct Energy $1000-Surge Protect",
-        features: [
-            "No service call fee, no long term contract, no pre-inspection required",
-            "Up to $1000 in annual coverage",
-            "Low monthly fee, convienently added right to your Direct Energy bill",
-        ],
-        price: "$6.99/mo",
-        ctaLabel: "Select Offer",
-        ctaHref: "#",
-    },
-    {
-        title: "Direct Energy $2000-Surge Protect",
-        features: [
-            "No service call fee, no long term contract, no pre-inspection required",
-            "Up to $1000 in annual coverage",
-            "Low monthly fee, convienently added right to your Direct Energy bill",
-        ],
-        price: "$9.99/mo",
-        ctaLabel: "Select Offer",
-        ctaHref: "#",
-    },
-];
-var Plans = function () {
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("section", { className: "plans", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "plans__container", children: plans.map(function (plan, index) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "plans__card", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "plans__icon-wrapper", "aria-hidden": "true", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: _assets_plug_circle_bolt_svg__WEBPACK_IMPORTED_MODULE_2__, alt: "", className: "plans__icon" }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", { className: "plans__title sm-heading bold color_deep-sea", children: plan.title }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("ul", { className: "plans__features", children: plan.features.map(function (feature, i) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: feature }, i)); }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { className: "plans__price x-lg-heading color_deep-sea", children: plan.price }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: plan.ctaHref, className: "background-color_bright-orange plans__cta", children: plan.ctaLabel })] }, index)); }) }) }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Plans);
-
-
-/***/ },
-
-/***/ "./src/assets/gray-curve.svg"
-/*!***********************************!*\
-  !*** ./src/assets/gray-curve.svg ***!
-  \***********************************/
-(module, __unused_webpack_exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/gray-curve.svg";
-
-/***/ },
-
-/***/ "./src/assets/man-on-cpu-potatoa.png"
-/*!*******************************************!*\
-  !*** ./src/assets/man-on-cpu-potatoa.png ***!
-  \*******************************************/
-(module, __unused_webpack_exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/man-on-cpu-potatoa.png";
-
-/***/ },
-
-/***/ "./src/assets/plug-circle-bolt.svg"
-/*!*****************************************!*\
-  !*** ./src/assets/plug-circle-bolt.svg ***!
-  \*****************************************/
-(module, __unused_webpack_exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/plug-circle-bolt.svg";
-
-/***/ },
-
-/***/ "./src/assets/woman-at-cpu.png"
-/*!*************************************!*\
-  !*** ./src/assets/woman-at-cpu.png ***!
-  \*************************************/
-(module, __unused_webpack_exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/woman-at-cpu.png";
-
 /***/ }
 
 /******/ 	});
@@ -36467,11 +36089,6 @@ module.exports = __webpack_require__.p + "assets/images/woman-at-cpu.png";
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -36481,35 +36098,124 @@ module.exports = __webpack_require__.p + "assets/images/woman-at-cpu.png";
 var __webpack_exports__ = {};
 // This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
 (() => {
-/*!*****************************!*\
-  !*** ./src/pages/index.tsx ***!
-  \*****************************/
+/*!*****************************************!*\
+  !*** ./src/pages/style-guide/index.tsx ***!
+  \*****************************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Header */ "./src/components/Header.tsx");
-/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Hero */ "./src/components/Hero.tsx");
-/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/main.scss */ "./src/styles/main.scss");
-/* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/About */ "./src/components/About.tsx");
-/* harmony import */ var _components_Plans__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Plans */ "./src/components/Plans.tsx");
+/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/main.scss */ "./src/styles/main.scss");
+/* harmony import */ var _styles_pages_StyleGuide_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/pages/StyleGuide.scss */ "./src/styles/pages/StyleGuide.scss");
 
 
 
 
 
-
-
-
-var App = function () {
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {}), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_Hero__WEBPACK_IMPORTED_MODULE_4__["default"], {}), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_About__WEBPACK_IMPORTED_MODULE_6__["default"], {}), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_Plans__WEBPACK_IMPORTED_MODULE_7__["default"], {})] }));
+// ─── Data ──────────────────────────────────────────────────────────────────
+var fontSizeRows = [
+    {
+        cls: ".display-heading",
+        mobile: "4.2rem/4.6rem",
+        desktop: "4.2rem/5.2rem",
+        sizePx: "4.2rem",
+    },
+    {
+        cls: ".x-lg-heading",
+        mobile: "3.4rem/3.8rem",
+        desktop: "3.6rem/4.0rem",
+        sizePx: "3.4rem",
+    },
+    {
+        cls: ".lg-heading",
+        mobile: "2.8rem/2.8rem",
+        desktop: "3.2rem/3.2rem",
+        sizePx: "2.8rem",
+    },
+    {
+        cls: ".md-heading",
+        mobile: "2.0rem/2.8rem",
+        desktop: "2.2rem/2.8rem",
+        sizePx: "2.0rem",
+    },
+    {
+        cls: ".sm-heading",
+        mobile: "1.9rem/2.6rem",
+        desktop: "same",
+        sizePx: "1.9rem",
+    },
+    {
+        cls: ".caption",
+        mobile: "1.7rem/2.6rem",
+        desktop: "Same",
+        sizePx: "1.7rem",
+    },
+];
+var textStyleRows = [
+    { cls: "em, .italic", css: "font-style: italic" },
+    { cls: ".uppercase", css: "text-transform: uppercase" },
+    { cls: ".underline", css: "text-decoration: underline" },
+    { cls: ".no-underline", css: "text-decoration: none" },
+    { cls: ".no-wrap", css: "white-space: nowrap" },
+    { cls: ".text-center", css: "text-align: center" },
+    { cls: ".text-left", css: "text-align: left" },
+    { cls: ".text-right", css: "text-align: right" },
+];
+var fontWeightRows = [
+    { cls: "b, strong, .strong, .bold", css: "font-weight: 700" },
+    { cls: ".semibold", css: "font-weight: 500" },
+    { cls: ".regular-weight", css: "font-weight: 400" },
+    { cls: ".light-weight", css: "font-weight: 300" },
+];
+var primarySwatches = [
+    { hex: "#005876", varName: "--swatch_deep-sea", bg: "#005876" },
+    { hex: "#FF5100", varName: "--swatch_bright-orange", bg: "#FF5100" },
+];
+var secondarySwatches = [
+    { hex: "#38454A", varName: "--swatch_gun-powder", bg: "#38454A" },
+    { hex: "#FAFAFA", varName: "--swatch_cloud", bg: "#FAFAFA" },
+];
+var backgroundClasses = [
+    ".background-color_deep-sea",
+    ".background-color_bright-orange",
+    ".background-color_gun-powder",
+    ".background-color_cloud",
+];
+var colorClasses = [".color_deep-sea", ".color_gun-powder", ".color_white"];
+var borderClasses = [".border-color_deep-sea", ".border-color_gun-powder"];
+var buttons = [
+    { label: "CTA Button", cssClass: "btn-no-background", isStrong: true },
+    {
+        label: "CTA Button",
+        cssClass: "background-color_deep-sea",
+        isStrong: false,
+    },
+    { label: "CTA Button", cssClass: "border-color_deep-sea", isStrong: false },
+    {
+        label: "CTA Button",
+        cssClass: "background-color_bright-orange",
+        isStrong: false,
+    },
+    {
+        label: "CTA Button",
+        cssClass: "border-color_bright-orange",
+        isStrong: false,
+    },
+];
+var SwatchGroup = function (_a) {
+    var label = _a.label, swatches = _a.swatches;
+    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { className: "sg-palette-label", children: label }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "sg-swatches", children: swatches.map(function (s) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-swatch", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "sg-swatch__color", style: { backgroundColor: s.bg }, role: "img", "aria-label": "Color swatch: ".concat(s.hex) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-swatch__info", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("strong", { children: s.hex }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("code", { children: ["var(", s.varName, ")"] })] })] }, s.varName)); }) })] }));
+};
+// ─── Page ──────────────────────────────────────────────────────────────────
+var StyleGuide = function () {
+    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "style-guide", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("nav", { className: "style-guide__nav", "aria-label": "Style guide sections", children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", { children: "Typographpy" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: "#font-stack", children: "Font Stack" }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: "#font-sizes", children: "Font Sizes" }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: "#text-styles", children: "Text Styles" }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: "#font-weights", children: "Font Weights" }) })] })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", { children: "Color Schemes" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: "#swatches", children: "Swatches" }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: "#color-classes", children: "Color Classes" }) })] })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", { children: "Buttons & Anchors" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("ul", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: "#basic-buttons", children: "Basic Buttons" }) }) })] })] }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", { className: "style-guide__main", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", { children: "Style Guide" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", { className: "sg-section", "aria-labelledby": "typography-heading", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", { className: "sg-section__title", id: "typography-heading", children: "Typography" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-section__subsection", id: "font-stack", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", { className: "sg-section__subtitle", children: "Font Stack" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", { className: "sg-font-stack", children: ["\"", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("strong", { children: "Roboto" }), "\", Sans-serif"] })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-section__subsection", id: "font-sizes", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", { className: "sg-section__subtitle", children: ["Font Sizes ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("em", { children: "(font-size/line-height)" })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("table", { className: "sg-table", "aria-label": "Font size scale", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("thead", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", { children: "Class" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", { children: "320-639px" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", { children: "960px and above" })] }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("tbody", { children: fontSizeRows.map(function (row) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", { style: { fontSize: row.sizePx, fontWeight: 400 }, children: row.cls }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", { children: row.mobile }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", { children: row.desktop })] }, row.cls)); }) })] })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-section__subsection", id: "text-styles", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", { className: "sg-section__subtitle", children: "Text Styles" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("table", { className: "sg-table sg-table--text-styles", "aria-label": "Text utility classes", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("thead", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", { children: "Class" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", { children: "CSS Property" })] }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("tbody", { children: textStyleRows.map(function (row) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", { children: row.cls }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", { children: row.css })] }, row.cls)); }) })] })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-section__subsection", id: "font-weights", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", { className: "sg-section__subtitle", children: "Font Weights" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("table", { className: "sg-table sg-table--font-weights", "aria-label": "Font weight utility classes", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("thead", { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", { children: "Class" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("th", { children: "CSS Property" })] }) }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("tbody", { children: fontWeightRows.map(function (row) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("tr", { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", { children: row.cls }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("td", { children: row.css })] }, row.cls)); }) })] })] })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", { className: "sg-section", "aria-labelledby": "color-heading", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", { className: "sg-section__title", id: "color-heading", children: "Color Schemes" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-section__subsection", id: "swatches", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", { className: "sg-section__subtitle", children: "Swatches" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(SwatchGroup, { label: "Primary Palette", swatches: primarySwatches }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(SwatchGroup, { label: "Secondary Palette", swatches: secondarySwatches })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-section__subsection", id: "color-classes", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", { className: "sg-section__subtitle", children: "Color Classes" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-color-classes", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-color-class-group", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", { children: "Backgrounds" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("ul", { children: backgroundClasses.map(function (c) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: c }, c)); }) })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-color-class-group", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", { children: "Colors" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("ul", { children: colorClasses.map(function (c) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: c }, c)); }) })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-color-class-group", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", { children: "Borders" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("ul", { children: borderClasses.map(function (c) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", { children: c }, c)); }) })] })] })] })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", { className: "sg-section", "aria-labelledby": "buttons-heading", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", { className: "sg-section__title", id: "buttons-heading", children: "Buttons & Anchors" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-section__subsection", id: "basic-buttons", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", { className: "sg-section__subtitle", children: "Basic Buttons" }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", { className: "sg-button-grid", children: buttons.map(function (btn, i) { return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-button-row", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", { className: "sg-button-meta", children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", { className: "sg-button-meta__label", children: ["CSS Classes: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("strong", { children: [".", btn.cssClass] })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", { className: "sg-button-meta__label", children: "Guidance: Primary CTA" })] }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", { href: "#", className: btn.cssClass, children: btn.isStrong ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("strong", { children: btn.label }) : btn.label })] }, i)); }) })] })] })] })] }));
 };
 var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("root"));
-root.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(App, {}) }));
+root.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(StyleGuide, {}) }));
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=index.html.js.map
+//# sourceMappingURL=style-guide\index.html.js.map

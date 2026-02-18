@@ -6,7 +6,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({
-  styleGuideUrl = "/demo/nrg-assessment/style-guide/",
+  styleGuideUrl = "./style-guide/index.html",
 }) => {
   return (
     <header className="site-header" role="banner">
