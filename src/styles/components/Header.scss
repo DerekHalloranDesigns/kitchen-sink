@@ -1,0 +1,31 @@
+// Header.scss
+// Styles for the site-wide announcement/nav bar.
+// Uses CSS custom properties from _tokens.scss — no hard-coded values.
+
+.site-header {
+  width: 100%;
+}
+
+.site-header__bar {
+  background-color: var(--color-deep-sea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px var(--space-6); // ← 5px matches the live site exactly
+  text-align: center;
+}
+
+.site-header__link {
+  text-underline-offset: 3px;
+  transition: opacity var(--transition-base);
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-white);
+    outline-offset: 4px;
+    border-radius: var(--border-radius-sm);
+  }
+}

@@ -1,12 +1,18 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import SampleComponent from "../components/SampleComponent";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import "../styles/main.scss";
+import About from "../components/About";
+import Plans from "../components/Plans";
 
 const App: React.FC = () => {
   return (
     <div>
-      <SampleComponent text="Hello Josh!" />
-      <SampleComponent text="Hello Josh!" />
+      <Header />
+      <Hero />
+      <About />
+      <Plans />
     </div>
   );
 };

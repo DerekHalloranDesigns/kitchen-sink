@@ -1,0 +1,171 @@
+// ─── Font sizes ─────────────────────────────────────────────
+// Base heading reset — margin only, no font-weight
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 20px;
+  font-weight: var(--font-weight-regular);
+}
+
+// Heading size utility classes — weight set separately so .light-weight can override
+.display-heading,
+.x-lg-heading,
+.lg-heading,
+.md-heading,
+.sm-heading,
+.caption {
+  margin-bottom: 20px;
+}
+
+.display-heading {
+  font-size: 4.2rem;
+  line-height: 4.6rem;
+
+  @media (min-width: 960px) {
+    line-height: 5.2rem;
+  }
+}
+
+.x-lg-heading {
+  font-size: 3.4rem;
+  line-height: 3.8rem;
+
+  @media (min-width: 960px) {
+    font-size: 3.6rem;
+    line-height: 4rem;
+  }
+}
+
+.lg-heading {
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+
+  @media (min-width: 960px) {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+  }
+}
+
+.md-heading {
+  font-size: 2rem;
+  line-height: 2.8rem;
+
+  @media (min-width: 960px) {
+    font-size: 2.2rem;
+  }
+}
+
+.sm-heading {
+  font-size: 1.9rem;
+  line-height: 2.6rem;
+}
+
+.caption {
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+}
+
+// ─── Font weights ────────────────────────────────────────────
+.light-weight {
+  font-weight: var(--font-weight-light);
+}
+.regular-weight {
+  font-weight: var(--font-weight-regular);
+}
+.semibold {
+  font-weight: var(--font-weight-semibold);
+}
+.bold,
+.strong {
+  font-weight: var(--font-weight-bold);
+}
+
+// ─── Text styles ─────────────────────────────────────────────
+.uppercase {
+  text-transform: uppercase;
+}
+.underline {
+  text-decoration: underline;
+}
+.no-underline {
+  text-decoration: none;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+// ─── Colors ──────────────────────────────────────────────────
+.color_deep-sea {
+  color: var(--color-deep-sea);
+}
+.color_gun-powder {
+  color: var(--color-gun-powder);
+}
+.color_white {
+  color: var(--color-white);
+}
+
+// ─── Backgrounds ─────────────────────────────────────────────
+.background-color_deep-sea {
+  background-color: var(--color-deep-sea);
+}
+.background-color_bright-orange {
+  background-color: var(--color-orange);
+}
+.background-color_gun-powder {
+  background-color: var(--color-gun-powder);
+}
+.background-color_cloud {
+  background-color: var(--color-cloud);
+}
+
+// ─── Border colors ───────────────────────────────────────────
+.border-color_deep-sea {
+  border-color: var(--color-deep-sea);
+}
+.border-color_gun-powder {
+  border-color: var(--color-gun-powder);
+}
+
+// ─── Spacing ─────────────────────────────────────────────────
+.has-pd-top-5 {
+  padding-top: 5px;
+}
+.has-pd-bottom-5 {
+  padding-bottom: 5px;
+}
+
+// ─── Button base ─────────────────────────────────────────────
+// Matches source of truth: base styles applied to anything with btn or border in class
+[class*="btn"],
+[class*="border"],
+[class*="background-color"] {
+  display: inline-block;
+  font-family: var(--font-family-base);
+  font-size: 1.6rem;
+  font-weight: var(--font-weight-semibold);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  border: 2px solid transparent;
+  padding: 18px 100px; // matches source of truth DevTools
+  transition: opacity var(--transition-base);
+
+  &:hover {
+    opacity: 0.85;
+  }
+}

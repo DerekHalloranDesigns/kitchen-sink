@@ -1,0 +1,85 @@
+// Button.scss
+// Base styles and all variants for buttons and anchor CTAs.
+
+// ─── Base ────────────────────────────────────────────────────
+.btn-no-background,
+.background-color_deep-sea,
+.background-color_bright-orange,
+.border-color_deep-sea,
+.border-color_bright-orange {
+  display: inline-block;
+  font-family: var(--font-family-base);
+  font-size: 1.6rem;
+  font-weight: var(--font-weight-semibold);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-btn);
+  padding: 1.8rem 10rem;
+  transition:
+    background-color var(--transition-base),
+    color var(--transition-base),
+    text-decoration var(--transition-base);
+}
+
+// ─── Variants + hovers ───────────────────────────────────────
+
+.btn-no-background {
+  background: none;
+  border-color: transparent;
+  color: var(--color-deep-sea);
+  padding: 0;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.background-color_deep-sea {
+  background-color: var(--color-deep-sea);
+  border-color: var(--color-deep-sea);
+  color: var(--color-white);
+
+  &:hover {
+    background-color: var(--color-gray-light);
+    border-color: var(--color-gray-light);
+    color: var(--color-deep-sea);
+  }
+}
+
+.background-color_bright-orange {
+  background-color: var(--color-orange);
+  border-color: var(--color-orange);
+  color: var(--color-white);
+
+  &:hover {
+    background-color: var(--color-gray-light);
+    border-color: var(--color-gray-light);
+    color: var(--color-orange);
+  }
+}
+
+.border-color_deep-sea {
+  background: none;
+  border-color: var(--color-deep-sea);
+  color: var(--color-deep-sea);
+
+  &:hover {
+    background-color: var(--color-deep-sea);
+    color: var(--color-white);
+  }
+}
+
+.border-color_bright-orange {
+  background: none;
+  border-color: var(--color-orange);
+  color: var(--color-orange);
+
+  &:hover {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+  }
+}

@@ -1,0 +1,87 @@
+// Hero.scss
+// Two-column hero: content left, circular image right.
+// Blob shapes use ::before and ::after on the image wrapper.
+
+.hero {
+  background-color: var(--color-off-white);
+  padding: var(--space-8) 0 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero__container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--space-8); // ← 24px gap between columns
+}
+
+// ─── Left column ───────────────────────────────────────────
+
+.hero__content {
+  flex: 0 0 50%;
+  padding: 0 var(--space-12) 0 var(--space-16); // ← internal padding for text breathing room
+}
+
+.hero__body {
+  font-size: var(--font-size-base); // ← back to 1rem, caption was too large
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+  margin-bottom: var(--space-8);
+}
+
+.hero__cta {
+  display: inline-block;
+  padding: var(--space-4) var(--space-10);
+  border: 2px solid var(--color-deep-sea); // ← explicit token reference
+  color: var(--color-deep-sea);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    background-color var(--transition-base),
+    color var(--transition-base);
+
+  &:hover {
+    background-color: var(--color-deep-sea);
+    color: var(--color-white);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-deep-sea);
+    outline-offset: 4px;
+  }
+}
+
+// ─── Right column ──────────────────────────────────────────
+
+.hero__media {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero__image-wrapper {
+  width: 100%;
+  padding: var(
+    --space-6
+  ); // ← 24px on all sides, shrinks image within same space
+}
+
+.hero__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero__curve {
+  display: block;
+  width: 100%;
+  height: auto;
+}

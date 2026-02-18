@@ -1,0 +1,10 @@
+// main.scss
+// Global entry point. Import order matters:
+// 1. Tokens first — defines the CSS custom properties on :root
+// 2. Base second — applies resets/typography using those tokens
+
+@use "tokens";
+@use "base";
+@use "utilities";
+@use "components/Button";
+@use "components/About";

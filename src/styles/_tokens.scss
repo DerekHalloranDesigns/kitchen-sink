@@ -1,0 +1,96 @@
+// _tokens.scss
+// Design tokens as CSS custom properties.
+// Defined on :root so they're available globally in the cascade.
+// Components reference var(--token-name) in their own SCSS files.
+
+:root {
+  // ─── Color: Brand ──────────────────────────────────────
+  --color-deep-sea: #005876; // corrected from #1a5f7a
+  --color-orange: #ff5100; // corrected from #f26522
+  --color-gun-powder: #38454a;
+  --color-cloud: #fafafa;
+  --color-white: #ffffff;
+  --color-off-white: #f5f7f8;
+  --color-text: #38454a; // gun-powder is the body text color
+  --color-teal-light: #e7f1f4; // icon background tint
+
+  // ─── Typography ────────────────────────────────────────
+  --font-family-base: "Roboto", sans-serif;
+
+  // Font size scale (mobile / desktop per style guide)
+  --font-size-display: 4.2rem; // .display-heading
+  --font-size-x-lg: 3.6rem; // .x-lg-heading
+  --font-size-lg: 3.2rem; // .lg-heading
+  --font-size-md: 2.2rem; // .md-heading
+  --font-size-sm-heading: 1.9rem; // .sm-heading
+  --font-size-caption: 1.7rem; // .caption
+  --font-size-base: 1rem; // body default
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .display-heading,
+  .x-lg-heading,
+  .lg-heading,
+  .md-heading,
+  .sm-heading,
+  .caption {
+    margin-bottom: 20px;
+  }
+
+  // Line heights (desktop/960px+)
+  --line-height-display: 5.2rem;
+  --line-height-x-lg: 4rem;
+  --line-height-lg: 3.2rem;
+  --line-height-md: 2.8rem;
+  --line-height-sm-heading: 2.6rem;
+  --line-height-caption: 2.6rem;
+  --line-height-base: 1.6;
+
+  // Font weights
+  --font-weight-bold: 700;
+  --font-weight-semibold: 500;
+  --font-weight-regular: 400;
+  --font-weight-light: 300;
+
+  // ─── Spacing (4px base grid, recalculated for 1rem = 10px) ──
+  --space-1: 0.4rem; //  4px
+  --space-2: 0.8rem; //  8px
+  --space-3: 1.2rem; //  12px
+  --space-4: 1.6rem; //  16px
+  --space-5: 2rem; //  20px
+  --space-6: 2.4rem; //  24px
+  --space-8: 3.2rem; //  32px
+  --space-10: 4rem; //  40px
+  --space-12: 4.8rem; //  48px
+  --space-16: 6.4rem; //  64px
+  --space-20: 8rem; //  80px
+
+  // ─── Base font size ─────────────────────────────────────────
+  --font-size-base: 1.6rem; // 16px
+  --line-height-base: 1.6;
+
+  // ─── Layout ─────────────────────────────────────────────
+  --container-max-width: 1440px;
+  --container-padding: var(--space-6);
+
+  // ─── Border ─────────────────────────────────────────────
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-full: 9999px;
+  --border-width: 1px;
+  --border-color: var(--color-gun-powder);
+
+  --border-radius-btn: 0.5rem;
+
+  // ─── Shadow ─────────────────────────────────────────────
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.12);
+
+  // ─── Transitions ────────────────────────────────────────
+  --transition-base: 150ms ease-in-out;
+}
