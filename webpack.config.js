@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const config = require("./deploy/config.json");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const htmlFileRegex = new RegExp("(src/pages/|src\\\\pages\\\\)", "ig");
 let directories = config.entryPoints.pages.directory;
@@ -64,7 +65,9 @@ module.exports = (env) => {
         {
           test: /\.scss$/,
           use: [
-            "style-loader",
+            environment === "dev"
+              ? "style-loader"
+              : MiniCssExtractPlugin.loader,
             "css-loader",
             {
               loader: "sass-loader",
@@ -97,6 +100,9 @@ module.exports = (env) => {
       extensions: [".tsx", ".ts", ".js", ".jsx"],
     },
     plugins: [
+      ...(environment !== "dev"
+        ? [new MiniCssExtractPlugin({ filename: "[name].css" })]
+        : []),
       ...htmlFiles.map((htmlFile) => {
         return new HtmlWebpackPlugin({
           template: htmlFile,
