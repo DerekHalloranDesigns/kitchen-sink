@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run build && webpack serve --mode development --env env=dev --open --hot",
     "build": "webpack --mode development --env env=dev",
-    "test": "jest"
+    "test": "jest",
+    "build:prod": "webpack --mode production --env env=prod"
   },
   "keywords": [],
   "author": "",
