@@ -33,7 +33,7 @@ module.exports = (env) => {
   const publicPath = target.publicPath;
   const assetModuleFilename = target.assetModuleFilename;
 
-  const clean = environment !== "dev";
+  const clean = environment === "dev" ? true : false;
 
   return {
     mode: environment === "dev" ? "development" : "production",
