@@ -22,7 +22,7 @@ while (directories.length > 0) {
 }
 
 htmlFiles.map((file) => {
-  let name = file.replace(htmlFileRegex, "");
+  let name = file.replace(htmlFileRegex, "").replace(".html", "");
   entryPoints[name] = path.resolve(__dirname, file.replace(".html", ".tsx"));
 });
 
