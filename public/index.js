@@ -36346,9 +36346,9 @@ var Plans = function () {
 /*!***********************************!*\
   !*** ./src/assets/gray-curve.svg ***!
   \***********************************/
-(module, __unused_webpack_exports, __webpack_require__) {
+(module) {
 
-module.exports = __webpack_require__.p + "./public/gray-curve.svg";
+module.exports = "/assets/images/gray-curve.svg";
 
 /***/ },
 
@@ -36356,9 +36356,9 @@ module.exports = __webpack_require__.p + "./public/gray-curve.svg";
 /*!*******************************************!*\
   !*** ./src/assets/man-on-cpu-potatoa.png ***!
   \*******************************************/
-(module, __unused_webpack_exports, __webpack_require__) {
+(module) {
 
-module.exports = __webpack_require__.p + "./public/man-on-cpu-potatoa.png";
+module.exports = "/assets/images/man-on-cpu-potatoa.png";
 
 /***/ },
 
@@ -36366,9 +36366,9 @@ module.exports = __webpack_require__.p + "./public/man-on-cpu-potatoa.png";
 /*!*****************************************!*\
   !*** ./src/assets/plug-circle-bolt.svg ***!
   \*****************************************/
-(module, __unused_webpack_exports, __webpack_require__) {
+(module) {
 
-module.exports = __webpack_require__.p + "./public/plug-circle-bolt.svg";
+module.exports = "/assets/images/plug-circle-bolt.svg";
 
 /***/ },
 
@@ -36376,9 +36376,9 @@ module.exports = __webpack_require__.p + "./public/plug-circle-bolt.svg";
 /*!*************************************!*\
   !*** ./src/assets/woman-at-cpu.png ***!
   \*************************************/
-(module, __unused_webpack_exports, __webpack_require__) {
+(module) {
 
-module.exports = __webpack_require__.p + "./public/woman-at-cpu.png";
+module.exports = "/assets/images/woman-at-cpu.png";
 
 /***/ }
 
@@ -36465,11 +36465,6 @@ module.exports = __webpack_require__.p + "./public/woman-at-cpu.png";
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

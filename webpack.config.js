@@ -83,6 +83,10 @@ module.exports = (env) => {
         {
           test: /\.(png|svg|jpg|gif|jpe?g|ico)$/,
           type: "asset/resource",
+          generator: {
+            filename: "assets/images/[name][ext]",
+            publicPath: publicPath + "/",
+          },
         },
         {
           test: /\.(woff|woff2)$/,
