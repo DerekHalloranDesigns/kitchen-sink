@@ -85,7 +85,7 @@ module.exports = (env) => {
           type: "asset/resource",
           generator: {
             filename: "assets/images/[name][ext]",
-            publicPath: publicPath + "/",
+            publicPath: "/kitchen-sink/",
           },
         },
         {
