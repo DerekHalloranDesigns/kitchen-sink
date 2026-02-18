@@ -6,8 +6,8 @@
       "assetModuleFilename": "./public"
     },
     "prod": {
-      "outputPath": ".",
-      "publicPath": "/kitchen-sink",
+      "outputPath": "dist",
+      "publicPath": "/kitchen-sink/dist",
       "assetModuleFilename": "assets/images"
     }
   },
