@@ -36348,7 +36348,7 @@ var Plans = function () {
   \***********************************/
 (module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/gray-curve.svg";
+module.exports = __webpack_require__.p + "./public/gray-curve.svg";
 
 /***/ },
 
@@ -36358,7 +36358,7 @@ module.exports = __webpack_require__.p + "assets/images/gray-curve.svg";
   \*******************************************/
 (module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/man-on-cpu-potatoa.png";
+module.exports = __webpack_require__.p + "./public/man-on-cpu-potatoa.png";
 
 /***/ },
 
@@ -36368,7 +36368,7 @@ module.exports = __webpack_require__.p + "assets/images/man-on-cpu-potatoa.png";
   \*****************************************/
 (module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/plug-circle-bolt.svg";
+module.exports = __webpack_require__.p + "./public/plug-circle-bolt.svg";
 
 /***/ },
 
@@ -36378,7 +36378,7 @@ module.exports = __webpack_require__.p + "assets/images/plug-circle-bolt.svg";
   \*************************************/
 (module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/images/woman-at-cpu.png";
+module.exports = __webpack_require__.p + "./public/woman-at-cpu.png";
 
 /***/ }
 
@@ -36512,4 +36512,4 @@ root.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react__WEBPA
 
 /******/ })()
 ;
-//# sourceMappingURL=index.html.js.map
+//# sourceMappingURL=index.js.map
