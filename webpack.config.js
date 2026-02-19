@@ -23,7 +23,11 @@ while (directories.length > 0) {
 }
 
 htmlFiles.map((file) => {
-  let name = file.replace(htmlFileRegex, "").replace(".html", "");
+  // Normalize backslashes → forward slashes so chunk names match on Windows + CI (Linux)
+  let name = file
+    .replace(htmlFileRegex, "")
+    .replace(".html", "")
+    .replace(/\\/g, "/");
   entryPoints[name] = path.resolve(__dirname, file.replace(".html", ".tsx"));
 });
 
@@ -47,7 +51,7 @@ module.exports = (env) => {
       filename: "[name].js",
       clean: clean,
       assetModuleFilename: assetModuleFilename + "/[name][ext]",
-      publicPath: publicPath + "/",
+      publicPath: publicPath === "" ? "/" : publicPath + "/",
     },
     devtool: "source-map",
     module: {
@@ -85,7 +89,8 @@ module.exports = (env) => {
           type: "asset/resource",
           generator: {
             filename: "assets/images/[name][ext]",
-            publicPath: "/kitchen-sink/",
+            // Use env variable — dev gets "/", prod gets "/kitchen-sink/"
+            publicPath: publicPath === "" ? "/" : publicPath + "/",
           },
         },
         {
@@ -105,11 +110,17 @@ module.exports = (env) => {
         ? [new MiniCssExtractPlugin({ filename: "[name].css" })]
         : []),
       ...htmlFiles.map((htmlFile) => {
+        // Normalize here too so chunks array matches the entry point key
+        const chunkName = htmlFile
+          .replace(htmlFileRegex, "")
+          .replace(".html", "")
+          .replace(/\\/g, "/");
+
         return new HtmlWebpackPlugin({
           template: htmlFile,
           filename: htmlFile.replace(htmlFileRegex, ""),
-          chunks: [htmlFile.replace(htmlFileRegex, "")],
-          inject: false,
+          chunks: [chunkName],
+          inject: true,
         });
       }),
     ],

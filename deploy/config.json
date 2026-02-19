@@ -3,7 +3,7 @@
     "dev": {
       "outputPath": "public",
       "publicPath": "",
-      "assetModuleFilename": "./public"
+      "assetModuleFilename": "assets/images"
     },
     "prod": {
       "outputPath": "dist",
