@@ -23,7 +23,6 @@ while (directories.length > 0) {
 }
 
 htmlFiles.map((file) => {
-  // Normalize backslashes → forward slashes so chunk names match on Windows + CI (Linux)
   let name = file
     .replace(htmlFileRegex, "")
     .replace(".html", "")
@@ -48,7 +47,7 @@ module.exports = (env) => {
     entry: entryPoints,
     output: {
       path: path.resolve(__dirname, outputPath),
-      filename: "[name].js",
+      filename: "[name].[contenthash].js",
       clean: clean,
       assetModuleFilename: assetModuleFilename + "/[name][ext]",
       publicPath: publicPath === "" ? "/" : publicPath + "/",
@@ -89,7 +88,6 @@ module.exports = (env) => {
           type: "asset/resource",
           generator: {
             filename: "assets/images/[name][ext]",
-            // Use env variable — dev gets "/", prod gets "/kitchen-sink/"
             publicPath: publicPath === "" ? "/" : publicPath + "/",
           },
         },
@@ -107,10 +105,9 @@ module.exports = (env) => {
     },
     plugins: [
       ...(environment !== "dev"
-        ? [new MiniCssExtractPlugin({ filename: "[name].css" })]
+        ? [new MiniCssExtractPlugin({ filename: "[name].[contenthash].css" })]
         : []),
       ...htmlFiles.map((htmlFile) => {
-        // Normalize here too so chunks array matches the entry point key
         const chunkName = htmlFile
           .replace(htmlFileRegex, "")
           .replace(".html", "")
