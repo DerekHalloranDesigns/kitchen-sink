@@ -8,7 +8,7 @@ import Plans from "../components/Plans";
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="app-wrapper">
       <Header />
       <Hero />
       <About />

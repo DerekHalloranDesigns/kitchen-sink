@@ -1,5 +1,4 @@
-// About.scss
-// Two-part section: centered intro, then two-column image + text.
+@use "../breakpoints" as *;
 
 .about {
   background-color: var(--color-white);
@@ -8,9 +7,6 @@
 
 // ─── Intro: centered heading + body ──────────────────────────
 .about__intro {
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 0 var(--container-padding);
   text-align: center;
   margin-bottom: var(--space-12);
 }
@@ -25,16 +21,22 @@
 
 // ─── Two-column: image left, content right ───────────────────
 .about__container {
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 0 var(--container-padding);
   display: flex;
   align-items: center;
   gap: var(--space-8);
+
+  @include respond-to("mobile") {
+    flex-direction: column;
+  }
 }
 
 .about__media {
   flex: 0 0 38%;
+
+  @include respond-to("mobile") {
+    flex: 1 1 100%;
+    width: 100%;
+  }
 }
 
 .about__image {
@@ -45,6 +47,11 @@
 .about__content {
   flex: 0 0 62%;
   padding: 0 var(--space-8);
+
+  @include respond-to("mobile") {
+    flex: 1 1 100%;
+    padding: 0;
+  }
 }
 
 .about__body {

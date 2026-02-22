@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import "../../styles/main.scss";
 import "../../styles/pages/StyleGuide.scss";
@@ -139,25 +139,59 @@ const SwatchGroup: React.FC<{ label: string; swatches: Swatch[] }> = ({
 // ─── Page ──────────────────────────────────────────────────────────────────
 
 const StyleGuide: React.FC = () => {
+  const [navOpen, setNavOpen] = useState(false);
+
   return (
     <div className="style-guide">
+      {/* ── Hamburger button (mobile only) ── */}
+      <button
+        className="style-guide__menu-btn"
+        aria-label={navOpen ? "Close menu" : "Open menu"}
+        aria-expanded={navOpen}
+        onClick={() => setNavOpen(!navOpen)}
+      >
+        <span />
+        <span />
+        <span />
+      </button>
+
+      {/* ── Overlay ── */}
+      {navOpen && (
+        <div
+          className="style-guide__overlay"
+          onClick={() => setNavOpen(false)}
+          aria-hidden="true"
+        />
+      )}
+
       {/* ── Sidebar Nav ── */}
-      <nav className="style-guide__nav" aria-label="Style guide sections">
+      <nav
+        className={`style-guide__nav ${navOpen ? "is-open" : ""}`}
+        aria-label="Style guide sections"
+      >
         <ul>
           <li>
             <span>Typographpy</span>
             <ul>
               <li>
-                <a href="#font-stack">Font Stack</a>
+                <a href="#font-stack" onClick={() => setNavOpen(false)}>
+                  Font Stack
+                </a>
               </li>
               <li>
-                <a href="#font-sizes">Font Sizes</a>
+                <a href="#font-sizes" onClick={() => setNavOpen(false)}>
+                  Font Sizes
+                </a>
               </li>
               <li>
-                <a href="#text-styles">Text Styles</a>
+                <a href="#text-styles" onClick={() => setNavOpen(false)}>
+                  Text Styles
+                </a>
               </li>
               <li>
-                <a href="#font-weights">Font Weights</a>
+                <a href="#font-weights" onClick={() => setNavOpen(false)}>
+                  Font Weights
+                </a>
               </li>
             </ul>
           </li>
@@ -165,10 +199,14 @@ const StyleGuide: React.FC = () => {
             <span>Color Schemes</span>
             <ul>
               <li>
-                <a href="#swatches">Swatches</a>
+                <a href="#swatches" onClick={() => setNavOpen(false)}>
+                  Swatches
+                </a>
               </li>
               <li>
-                <a href="#color-classes">Color Classes</a>
+                <a href="#color-classes" onClick={() => setNavOpen(false)}>
+                  Color Classes
+                </a>
               </li>
             </ul>
           </li>
@@ -176,7 +214,9 @@ const StyleGuide: React.FC = () => {
             <span>Buttons &amp; Anchors</span>
             <ul>
               <li>
-                <a href="#basic-buttons">Basic Buttons</a>
+                <a href="#basic-buttons" onClick={() => setNavOpen(false)}>
+                  Basic Buttons
+                </a>
               </li>
             </ul>
           </li>
@@ -204,26 +244,28 @@ const StyleGuide: React.FC = () => {
             <h3 className="sg-section__subtitle">
               Font Sizes <em>(font-size/line-height)</em>
             </h3>
-            <table className="sg-table" aria-label="Font size scale">
-              <thead>
-                <tr>
-                  <th>Class</th>
-                  <th>320-639px</th>
-                  <th>960px and above</th>
-                </tr>
-              </thead>
-              <tbody>
-                {fontSizeRows.map((row) => (
-                  <tr key={row.cls}>
-                    <td style={{ fontSize: row.sizePx, fontWeight: 400 }}>
-                      {row.cls}
-                    </td>
-                    <td>{row.mobile}</td>
-                    <td>{row.desktop}</td>
+            <div className="sg-table-wrapper">
+              <table className="sg-table" aria-label="Font size scale">
+                <thead>
+                  <tr>
+                    <th>Class</th>
+                    <th>320-639px</th>
+                    <th>960px and above</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {fontSizeRows.map((row) => (
+                    <tr key={row.cls}>
+                      <td style={{ fontSize: row.sizePx, fontWeight: 400 }}>
+                        {row.cls}
+                      </td>
+                      <td>{row.mobile}</td>
+                      <td>{row.desktop}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
 
           <div className="sg-section__subsection" id="text-styles">

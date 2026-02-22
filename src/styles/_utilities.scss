@@ -1,3 +1,6 @@
+// _utilities.scss
+@use "breakpoints" as *;
+
 // ─── Font sizes ─────────────────────────────────────────────
 // Base heading reset — margin only, no font-weight
 h1,
@@ -162,10 +165,26 @@ h6 {
   letter-spacing: 0.08em;
   cursor: pointer;
   border: 2px solid transparent;
-  padding: 18px 100px; // matches source of truth DevTools
+  padding: 18px 100px;
   transition: opacity var(--transition-base);
 
   &:hover {
     opacity: 0.85;
   }
+}
+
+// ─── Containers ───────────────────────────────────────────
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (min-width: 960px) {
+    padding: 0;
+  }
+}
+
+.app-wrapper {
+  width: 100%;
+  max-width: 100%;
 }

@@ -38,7 +38,7 @@ const plans: Plan[] = [
 const Plans: React.FC = () => {
   return (
     <section className="plans">
-      <div className="plans__container">
+      <div className="plans__container container">
         {plans.map((plan, index) => (
           <div className="plans__card" key={index}>
             <div className="plans__icon-wrapper" aria-hidden="true">

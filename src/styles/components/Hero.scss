@@ -1,6 +1,5 @@
 // Hero.scss
-// Two-column hero: content left, circular image right.
-// Blob shapes use ::before and ::after on the image wrapper.
+@use "../breakpoints" as *;
 
 .hero {
   background-color: var(--color-off-white);
@@ -10,23 +9,29 @@
 }
 
 .hero__container {
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 0;
   display: flex;
   align-items: center;
-  gap: var(--space-8); // ← 24px gap between columns
-}
+  gap: var(--space-8);
 
-// ─── Left column ───────────────────────────────────────────
+  @include respond-to("mobile") {
+    flex-direction: column;
+    gap: 0;
+  }
+}
 
 .hero__content {
   flex: 0 0 50%;
-  padding: 0 var(--space-12) 0 var(--space-16); // ← internal padding for text breathing room
+  padding: 0 var(--space-12) 0 var(--space-16);
+
+  @include respond-to("mobile") {
+    flex: 1 1 100%;
+    padding: 0; // ← container handles side padding now
+    order: 2;
+  }
 }
 
 .hero__body {
-  font-size: var(--font-size-base); // ← back to 1rem, caption was too large
+  font-size: var(--font-size-base);
   line-height: var(--line-height-base);
   color: var(--color-text);
   margin-bottom: var(--space-8);
@@ -35,7 +40,7 @@
 .hero__cta {
   display: inline-block;
   padding: var(--space-4) var(--space-10);
-  border: 2px solid var(--color-deep-sea); // ← explicit token reference
+  border: 2px solid var(--color-deep-sea);
   color: var(--color-deep-sea);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-semibold);
@@ -57,21 +62,27 @@
   }
 }
 
-// ─── Right column ──────────────────────────────────────────
-
 .hero__media {
   flex: 0 0 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   overflow: hidden;
+
+  @include respond-to("mobile") {
+    flex: 1 1 100%;
+    justify-content: center;
+    order: 1;
+  }
 }
 
 .hero__image-wrapper {
   width: 100%;
-  padding: var(
-    --space-6
-  ); // ← 24px on all sides, shrinks image within same space
+  padding: var(--space-6);
+
+  @include respond-to("mobile") {
+    padding: 0;
+  }
 }
 
 .hero__image {

@@ -7,20 +7,27 @@
 }
 
 html {
-  font-size: 62.5%; // 1rem = 10px, matches source of truth rem scale
+  font-size: 62.5%;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
 
+#root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   font-family: var(--font-family-base);
-  font-size: 1.6rem; // restores 16px body text
+  font-size: 1.6rem;
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
   color: var(--color-text);
   background-color: var(--color-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 h1,

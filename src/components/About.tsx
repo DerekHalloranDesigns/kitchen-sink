@@ -5,7 +5,7 @@ import womanImage from "../assets/woman-at-cpu.png";
 const About: React.FC = () => {
   return (
     <section className="about">
-      <div className="about__intro">
+      <div className="about__intro container">
         <h2 className="x-lg-heading regular-weight text-center">
           What is a Surge Protection Plan?
         </h2>
@@ -15,7 +15,7 @@ const About: React.FC = () => {
         </p>
       </div>
 
-      <div className="about__container">
+      <div className="about__container container">
         <div className="about__media" aria-hidden="true">
           <img src={womanImage} alt="" className="about__image" />
         </div>

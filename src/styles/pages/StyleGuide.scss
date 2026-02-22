@@ -1,6 +1,4 @@
-// StyleGuide.scss
-// Layout and styles specific to the Style Guide page.
-// Uses tokens from _tokens.scss via CSS custom properties.
+@use "../breakpoints" as *;
 
 // ─── Page Layout ─────────────────────────────────────────────
 .style-guide {
@@ -9,18 +7,64 @@
   font-family: var(--font-family-base);
 }
 
+// ─── Hamburger Button (mobile only) ──────────────────────────
+.style-guide__menu-btn {
+  display: none;
+  position: fixed;
+  top: var(--space-4);
+  right: var(--space-4);
+  left: auto;
+  z-index: 200;
+  width: 4rem;
+  height: 4rem;
+  background: var(--color-deep-sea);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: var(--space-2);
+
+  span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--color-white);
+    border-radius: 2px;
+  }
+
+  @include respond-to("mobile") {
+    display: flex;
+  }
+}
+
+// ─── Overlay ─────────────────────────────────────────────────
+.style-guide__overlay {
+  display: none;
+
+  @include respond-to("mobile") {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 99;
+  }
+}
+
 // ─── Sidebar Nav ─────────────────────────────────────────────
 .style-guide__nav {
   width: 240px;
   flex-shrink: 0;
   padding: var(--space-8) var(--space-6);
   border-right: 1px solid #e0e0e0;
-  position: sticky;
+  position: fixed;
   top: 0;
   height: 100vh;
   overflow-y: auto;
+  background: var(--color-white);
 
-  // Top-level nav items (Typography, Color Schemes, etc.)
   > ul {
     list-style: disc;
     padding-left: var(--space-5);
@@ -33,7 +77,6 @@
         font-size: 1.4rem;
       }
 
-      // Sub-items (Font Stack, Font Sizes, etc.)
       > ul {
         list-style: circle;
         padding-left: var(--space-5);
@@ -55,11 +98,28 @@
       }
     }
   }
+
+  @include respond-to("mobile") {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 100;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+
+    &.is-open {
+      transform: translateX(0);
+    }
+  }
 }
 
 // ─── Main Content ─────────────────────────────────────────────
 .style-guide__main {
   flex: 1;
+  min-width: 0;
+  width: 100%;
+  margin-left: 240px;
   padding: var(--space-8) var(--space-10);
   max-width: 1100px;
 
@@ -67,6 +127,11 @@
     font-size: 3.6rem;
     font-weight: var(--font-weight-regular);
     margin-bottom: var(--space-8);
+  }
+
+  @include respond-to("mobile") {
+    margin-left: 0;
+    padding: var(--space-12) var(--space-6) var(--space-8);
   }
 }
 
@@ -112,10 +177,25 @@
 }
 
 // ─── Font Sizes Table ────────────────────────────────────────
+.sg-table-wrapper {
+  @include respond-to("mobile") {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+}
+
 .sg-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 1.4rem;
+
+  @include respond-to("mobile") {
+    th,
+    td {
+      padding: 1rem;
+    }
+  }
 
   th {
     background-color: var(--color-deep-sea);
@@ -134,19 +214,25 @@
     color: #555;
   }
 
-  // Alternating row shading
   tr:nth-child(even) td {
     background-color: #f0f0f0;
   }
 
-  // Class name column — render at actual size
   td:first-child {
     text-align: center;
   }
 }
 
-// ─── Text Styles Table ───────────────────────────────────────
-.sg-table--text-styles {
+// ─── Two-column tables (Text Styles + Font Weights) ──────────
+// Shared styles: left-aligned headers and monospace cells.
+.sg-table--text-styles,
+.sg-table--font-weights {
+  th {
+    width: 50%;
+    text-align: left;
+    padding-left: var(--space-6);
+  }
+
   td:first-child {
     font-family: monospace;
     font-size: 1.3rem;
@@ -159,22 +245,7 @@
     font-family: monospace;
     font-size: 1.3rem;
     text-align: left;
-  }
-}
-
-// ─── Font Weights Table ──────────────────────────────────────
-.sg-table--font-weights {
-  td:first-child {
-    font-family: monospace;
-    font-size: 1.3rem;
-    text-align: left;
     padding-left: var(--space-6);
-  }
-
-  td:last-child {
-    font-family: monospace;
-    font-size: 1.3rem;
-    text-align: left;
   }
 }
 
@@ -202,6 +273,11 @@
     width: 200px;
     height: 100px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+
+    @include respond-to("mobile") {
+      width: 140px;
+      height: 80px;
+    }
   }
 
   &__info {
@@ -267,6 +343,11 @@
   &:last-child {
     border-bottom: none;
   }
+
+  @include respond-to("mobile") {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .sg-button-meta {
@@ -281,5 +362,10 @@
       font-weight: var(--font-weight-semibold);
       color: var(--color-gun-powder);
     }
+  }
+
+  @include respond-to("mobile") {
+    min-width: unset;
+    width: 100%;
   }
 }

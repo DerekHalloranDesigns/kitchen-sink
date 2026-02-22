@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({
 }) => {
   return (
     <section className="hero" aria-label="Surge Protection Plans">
-      <div className="hero__container">
+      <div className="hero__container container">
         <div className="hero__content">
           <h2 className="display-heading light-weight hero__title">{title}</h2>
           <p className="hero__body">{body}</p>
