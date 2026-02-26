@@ -1,12 +1,12 @@
 # Kitchen Sink — Design System Starter
 
-A React + TypeScript + SCSS starter kit for building a component-based design system, modelled after [uzzell.codes/demo/nrg-assessment](https://uzzell.codes/demo/nrg-assessment/).
+A React + TypeScript + SCSS starter kit for building a component-based design system, modelled after the [NRG Assessment style guide](https://uzzell.codes/demo/nrg-assessment/).
 
 ---
 
 ## Project Goal
 
-Recreate the NRG Assessment design system page inside this React + TypeScript starter kit — using SCSS, CSS custom properties (design tokens), and accessible, reusable components.
+Recreate the NRG Assessment design system page as a living style guide inside this React + TypeScript app — using SCSS, CSS custom properties (design tokens), and accessible, reusable components.
 
 ---
 
@@ -15,8 +15,8 @@ Recreate the NRG Assessment design system page inside this React + TypeScript st
 | Tool           | Purpose                            |
 | -------------- | ---------------------------------- |
 | React          | UI rendering                       |
-| TypeScript     | Type-safe props and component APIs |
-| SCSS           | Styling (no CSS-in-JS)             |
+| TypeScript     | Type-safe component props and APIs |
+| SCSS (`@use`)  | Styling — no CSS-in-JS             |
 | Webpack        | Bundling                           |
 | Jest + ts-jest | Unit testing                       |
 
@@ -28,67 +28,127 @@ No additional libraries are added unless explicitly discussed and justified firs
 
 ```
 src/
+├── __tests__/                        # Jest unit tests
+
+├── assets/                           # Static images and SVGs
+│   ├── gray-curve.svg
+│   ├── man-on-cpu-potatoa.png
+│   ├── plug-circle-bolt.svg
+│   └── woman-at-cpu.png
+
+├── components/                       # Shared UI components
+│   ├── About.tsx
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── Plans.tsx
+│   └── SampleComponent.tsx
+
+├── pages/
+│   └── style-guide/
+│       ├── index.html                # HTML entry for the style guide page
+│       └── index.tsx                 # Style guide React page (standalone root)
+
 ├── styles/
-│   ├── _tokens.scss       # CSS custom properties (design tokens) — defined once here
-│   ├── _base.scss         # Resets, typography, body defaults — imports tokens
-│   └── global.scss        # Entry point for global styles — imports base + tokens
-│
-├── components/
-│   ├── Button/
-│   │   ├── Button.tsx
+│   ├── components/                   # Per-component SCSS files
+│   │   ├── About.scss
 │   │   ├── Button.scss
-│   │   └── Button.test.tsx
-│   ├── Input/
-│   │   ├── Input.tsx
-│   │   ├── Input.scss
-│   │   └── Input.test.tsx
-│   ├── Card/
-│   │   ├── Card.tsx
-│   │   ├── Card.scss
-│   │   └── Card.test.tsx
-│   └── ...
-│
-├── App.tsx                # Root component — imports global.scss, composes page
-└── index.tsx              # React mount point
+│   │   ├── Header.scss
+│   │   ├── Hero.scss
+│   │   ├── Plans.scss
+│   │   └── SampleComponent.scss
+│   ├── pages/
+│   │   └── StyleGuide.scss           # Styles scoped to the style guide page
+│   ├── _base.scss                    # Resets and base typography
+│   ├── _breakpoints.scss             # Breakpoint mixins
+│   ├── _tokens.scss                  # CSS custom properties (design tokens)
+│   ├── _utilities.scss               # Utility/helper classes
+│   └── main.scss                     # Global entry point — imports all partials
+
+├── types/
+│   ├── image.d.ts                    # Type declarations for image imports
+│   └── SampleComponentProps.ts       # Example prop types
+
+├── index.html                        # Main app HTML entry
+├── index.tsx                         # Main app React root
+└── setupTests.ts                     # Jest setup
 ```
 
 ---
 
-## Architecture Decisions
+## Architecture
 
-### Design Tokens (`_tokens.scss`)
+### Entry Points
 
-All colour, spacing, typography, border-radius, and shadow values are defined here as CSS custom properties on `:root`. Every component consumes these via `var(--token-name)` — change a token here, it cascades everywhere.
+There are two separate React roots:
 
-### Base Styles (`_base.scss`)
+- **`src/index.tsx`** — the main marketing app (`Header`, `Hero`, `About`, `Plans`). Imports `main.scss`.
+- **`src/pages/style-guide/index.tsx`** — the standalone style guide page. Imports `main.scss` and `pages/StyleGuide.scss`.
 
-Box-sizing reset, body font defaults, and baseline typography. Imports tokens so it can reference them. Not component-specific.
+Both use `createRoot` directly and are served as independent pages via separate Webpack entry points.
 
-### Component Styles (co-located `.scss` files)
+### Global Styles (`src/styles/main.scss`)
 
-Each component owns its own `.scss` file, sitting next to the `.tsx`. They reference global CSS variables (not SCSS variables) so they stay decoupled from the token file at the Sass level. This avoids import-order issues and keeps components portable.
+The single global import file. Uses SCSS `@use` (not `@import`) and load order is intentional:
 
-### TypeScript Props for Variants
-
-Components use typed props for visual variants and states:
-
-```tsx
-// Example
-type ButtonProps = {
-  variant?: "primary" | "secondary" | "ghost";
-  size?: "sm" | "md" | "lg";
-  disabled?: boolean;
-};
+```scss
+@use "tokens"; // 1. CSS custom properties — must come first
+@use "base"; // 2. Resets + typography, references token vars
+@use "utilities"; // 3. Helper/utility classes
+@use "components/Button";
+@use "components/About";
+@use "breakpoints";
 ```
 
-This makes the component API self-documenting and prevents invalid combinations.
+### Design Tokens (`src/styles/_tokens.scss`)
 
-### Accessibility by Default
+All design decisions live here as CSS custom properties on `:root`. Components consume them via `var(--token-name)` — never hard-coded values.
 
-- All `<input>` elements have associated `<label>` elements (via `htmlFor` / `id`)
-- Buttons use native `<button>` elements (not `<div>`)
-- Focus states are visible and not suppressed
-- `aria-*` attributes added where semantic HTML isn't sufficient
+Token categories:
+
+- **Color** — brand palette: `--color-deep-sea`, `--color-orange`, `--color-gun-powder`, `--color-cloud`, `--color-white`
+- **Typography** — font family, size scale (`--font-size-display` through `--font-size-caption`), line heights, font weights
+- **Spacing** — 4px base grid, `--space-1` through `--space-20`
+- **Layout** — `--container-max-width`, `--container-padding`
+- **Border** — radius scale (`--border-radius-sm` through `--border-radius-full`), width, color
+- **Shadow** — `--shadow-card`, `--shadow-hover`
+- **Transitions** — `--transition-base`
+
+### Component Styles
+
+Each component has a co-located `.scss` file in `src/styles/components/`. They use `@use "../breakpoints" as *` for responsive mixins and reference global CSS variables directly — no SCSS variable imports needed.
+
+### Breakpoints (`src/styles/_breakpoints.scss`)
+
+Defines `respond-to()` mixins used across component files:
+
+```scss
+@include respond-to("mobile") {
+  flex-direction: column;
+}
+```
+
+### Utilities (`src/styles/_utilities.scss`)
+
+Global single-purpose classes that mirror what the style guide documents:
+
+- **Text alignment:** `.text-center`, `.text-left`, `.text-right`
+- **Text style:** `.uppercase`, `.underline`, `.no-underline`, `.no-wrap`, `.italic`
+- **Font weight:** `.bold`, `.semibold`, `.regular-weight`, `.light-weight`
+- **Color:** `.color_deep-sea`, `.color_gun-powder`, `.color_white`
+- **Background:** `.background-color_deep-sea`, `.background-color_bright-orange`, `.background-color_gun-powder`, `.background-color_cloud`
+- **Border:** `.border-color_deep-sea`, `.border-color_gun-powder`
+
+---
+
+## Style Guide Page
+
+The style guide (`src/pages/style-guide/index.tsx`) is a self-contained React page that documents the design system. It includes a collapsible sidebar nav (mobile toggle, always visible on desktop) with anchor links to each section.
+
+Sections:
+
+- **Typography** — font stack, font size scale with mobile/desktop values, text style utilities, font weight utilities
+- **Color Schemes** — primary and secondary swatches with hex values and token variable names; background, color, and border utility class lists
+- **Buttons & Anchors** — all button variants with their CSS classes and usage guidance
 
 ---
 
@@ -110,36 +170,11 @@ npm run build
 
 ---
 
-## Component Inventory
+## Key Conventions
 
-Planned components (based on the NRG Assessment reference page):
-
-- `Button` — variants: primary, secondary, ghost; sizes: sm, md, lg
-- `Input` — types: text, email, password; states: default, focus, error, disabled
-- `Card` — generic container with optional header/footer slots
-- `Badge` — status indicators
-- `Typography` — heading + body text scale
-- `ColorSwatch` — token visualisation for the design system page itself
-
----
-
-## Design Token Categories
-
-Defined in `src/styles/_tokens.scss`:
-
-- **Color** — brand palette, semantic colours (success, error, warning, info), neutrals
-- **Typography** — font families, size scale, line heights, font weights
-- **Spacing** — 4px base grid scale (`--space-1` through `--space-16`)
-- **Border Radius** — sm, md, lg, full
-- **Shadows** — elevation levels (sm, md, lg)
-- **Transitions** — duration and easing defaults
-
----
-
-## Contributing / Conventions
-
-- Keep changes minimal and incremental — don't refactor unrelated files
-- One component per folder
-- No new libraries without discussion
-- All new tokens go in `_tokens.scss` — never hardcode values in component styles
-- Write a test for any component with interactive behaviour
+- Change a value once in `_tokens.scss` — it cascades everywhere
+- Never hard-code colour, spacing, or font values inside component SCSS files
+- New components get a `.tsx` in `src/components/` and a `.scss` in `src/styles/components/`
+- Use native semantic HTML (`<button>`, `<nav>`, `<section>`, `<label>`) before reaching for ARIA attributes
+- All interactive elements must have visible focus states
+- No new npm libraries without prior discussion and justification
